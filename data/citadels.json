@@ -3,73 +3,91 @@
     {
       "bastions": 4,
       "built_year": 1804,
-      "caption_now": "Hạc Thành has been almost entirely absorbed into modern Thanh Hóa city; no confirmed above-ground fabric remains, and this outline is a coarse approximation, not a surveyed trace.",
+      "caption_now": "Hạc Thành has been almost entirely built over by modern Thanh Hóa city, but the hexagonal moat still shows: a ring of ponds — including the lake still named Hồ Thành, 'Citadel Lake' — and the streets Hạc Thành, Cửa Tiền and Hàng Đồng trace where the walls once stood.",
       "engineer": "Nguyễn court engineers; general Vauban-model attribution — one of about 32 new citadels built 1802-1844 with a design resembling Vauban architecture",
       "fate": "built_over",
       "name_en": "Hac Thanh / Thanh Hoa Citadel",
       "name_vi": "Hạc Thành",
       "now": {
-        "area_m2": 228710.8,
+        "area_m2": 317810.1,
         "buildings": {
-          "count": 12,
-          "footprint_m2": 8547.2
+          "count": 0,
+          "footprint_m2": 0.0
         },
-        "landuse": {
-          "commercial": 0.1157
-        },
+        "landuse": {},
         "lives": {
-          "civic": 43,
-          "eat": 89,
-          "other": 44,
-          "serve": 159,
-          "shop": 171
+          "civic": 37,
+          "eat": 16,
+          "other": 6,
+          "serve": 51,
+          "shop": 15
         },
-        "poi_total": 506
+        "poi_total": 125
       },
-      "perimeter_m": 1800.0,
+      "perimeter_m": 2960.0,
       "province": "Thanh Hóa",
       "ruler": "Gia Long",
       "slug": "hạc-thành",
       "sources": [
         {
-          "cite": "Saigoneer, \"Vauban Architecture: The Foundation of Central and Northern Vietnam's Citadels\", https://www.saigoneer.com/vietnam-heritage/18626-vauban-architecture-the-foundation-of-central-and-northern-vietnam-s-citadels",
-          "claim": "Hạc Thành (Thanh Hóa Citadel) was built in 1804 under Gia Long, classified as one of roughly 32 citadels built 1802-1844 with a design resembling Vauban architecture; noted on a 1909 French map but perimeter, bastion count and wall material could not be pinned down in the sources consulted."
+          "cite": "Báo Thanh Hóa, \"Hạc Thành xưa - TP Thanh Hóa nay\", https://baothanhhoa.vn/hac-thanh-xua-tp-thanh-hoa-nay-233979.htm",
+          "claim": "Hạc Thành (Thành Thanh Hóa) was built from spring 1804 under Gia Long, who relocated the provincial garrison town from Dương Xá to Thọ Hạc village and had it built in a hexagonal (lục lăng) plan with a surrounding moat and four gates. Báo Thanh Hóa gives the circuit as ~630 trượng, walls ~1 trượng high of brick and stone, and a moat ~9 trượng 3 thước (≈44 m) wide and ~7 thước deep; the old walls are today traced by Hạc Thành, Lê Lợi, Cửa Tiền and Hàng Đồng streets in Tân Sơn / Điện Biên wards of Thanh Hóa city."
         },
         {
-          "cite": "Slideshare, \"THÀNH VAUBAN Ở VIỆT NAM — trường hợp kinh thành Huế\" (academic survey), https://www.slideshare.net/slideshow/thnh-vauban-vit-nam-trng-hp-kinh-thnh-hu-573016c4/246497093",
-          "claim": "Hạc Thành is listed among the standard Vauban-model citadel survey group alongside Huế; a 2026-07-15 research pass could not corroborate its precise perimeter, bastion count, or current surviving fabric beyond the passing 1909 map mention — flagged for lower confidence, hence the coarse (not surveyed) polygon here."
+          "cite": "OpenStreetMap contributors (natural=water features incl. 'Hồ Thành'), via Overpass API; Esri World Imagery basemap. ODbL 1.0.",
+          "claim": "The citadel footprint here is traced from surviving moat remnants on satellite imagery, not from a survey drawing: a ring of remnant ponds and linear water/vegetation strips around the old block, including the lake still named 'Hồ Thành' (Citadel Lake) tagged in OpenStreetMap at roughly 19.8101N, 105.7705E, plus adjacent water bodies mapped by OSM contributors. The polygon is a best-fit approximation of that visible ring."
+        },
+        {
+          "cite": "Saigoneer, \"Vauban Architecture: The Foundation of Central and Northern Vietnam's Citadels\", https://www.saigoneer.com/vietnam-heritage/18626-vauban-architecture-the-foundation-of-central-and-northern-vietnam-s-citadels",
+          "claim": "Hạc Thành is listed among the standard Vauban-model citadel survey group; classified as one of roughly 32 citadels built 1802-1844 with a design resembling Vauban architecture, noted on a 1909 French map."
         }
       ],
       "star_geometry": {
         "coordinates": [
           [
             [
-              105.778548,
-              19.808721
+              105.769833,
+              19.810527
             ],
             [
-              105.778548,
-              19.804679
+              105.772805,
+              19.810679
             ],
             [
-              105.774252,
-              19.804679
+              105.775219,
+              19.809366
             ],
             [
-              105.774252,
-              19.808721
+              105.775541,
+              19.808811
             ],
             [
-              105.778548,
-              19.808721
+              105.7742,
+              19.80659
+            ],
+            [
+              105.772666,
+              19.805197
+            ],
+            [
+              105.770949,
+              19.805561
+            ],
+            [
+              105.769479,
+              19.80659
+            ],
+            [
+              105.769833,
+              19.810527
             ]
           ]
         ],
         "type": "Polygon"
       },
       "vauban_lineage": true,
-      "vauban_note": "Nguyễn court engineers, Vauban trace; perimeter, bastion count and wall material are thin in the sources consulted (noted only on a 1909 French map) so this polygon is a COARSE approximate footprint around the noted city-center location, not a surveyed trace.",
-      "wall_style": "earth"
+      "vauban_note": "Hexagonal (lục lăng) citadel begun 1804 when Gia Long moved the Thanh Hóa garrison town from Dương Xá to Thọ Hạc village. Brick-and-stone walls ~1 trượng high, ringed by a broad moat (~9 trượng 3 thước ≈ 44 m wide, ~3 m deep) with four gates (Cửa Tiền/south, Cửa Hậu/north, Cửa Tả, Cửa Hữu). Now absorbed into central Thanh Hóa city (Tân Sơn / Điện Biên / Ba Đình wards). This polygon is TRACED from surviving moat remnants visible on satellite imagery — a chain of ponds including the lake still named 'Hồ Thành' (Citadel Lake, ~19.810N 105.7705E) and the linear green/water strips that ring the old block — anchored to the streets that follow the walls (Hạc Thành, Cửa Tiền, Hàng Đồng). It follows the inner moat trace, so its measured span (~2 km) is tighter than the full original wall circuit stated in the record (630 trượng).",
+      "wall_style": "brick"
     },
     {
       "bastions": 4,
