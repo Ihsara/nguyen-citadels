@@ -1,0 +1,277 @@
+/* atlas.css — nguyen-citadels atlas/explorer page
+   Register: LIGHT / warm ground (heritage atlas), same paper+ink as fort.css.
+   The network map keeps a lighter cartographic ground than the fort-page
+   star map — this is an overview of many dots, not one glowing star. */
+
+:root {
+  --paper: #f4efe4;
+  --paper-raised: #ede5d3;
+  --ink: #2b2420;
+  --ink-soft: #6b5f52;
+  --rule: #d8cbb3;
+  --accent-gold: #e8c37a;
+  --font-display: "Alegreya", Georgia, serif;
+  --font-body: "Lora", Georgia, serif;
+  --font-ui: "Be Vietnam Pro", "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.55;
+}
+
+a { color: #7a4a1f; }
+a:hover { color: #a5642a; }
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+.site-nav a { text-decoration: none; color: var(--ink-soft); }
+.site-nav a:hover, .site-nav a.current { color: var(--ink); }
+
+.atlas-header {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 5vw, 3.5rem) clamp(1rem, 4vw, 3rem) 1.5rem;
+}
+
+.atlas-header .eyebrow {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+  margin: 0 0 0.4rem;
+}
+
+.atlas-header h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2rem, 5.5vw, 3.2rem);
+  margin: 0 0 0.6rem;
+  line-height: 1.05;
+}
+
+.atlas-header .lede {
+  max-width: 46rem;
+  color: var(--ink-soft);
+  font-size: 1.02rem;
+}
+
+/* --- Network map --- */
+.map-section {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 4vw, 3rem) 1rem;
+  position: relative;
+}
+
+#map {
+  width: 100%;
+  height: min(60vh, 480px);
+  min-height: 300px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--rule);
+  background: var(--paper-raised);
+}
+
+.legend {
+  list-style: none;
+  margin: 0.8rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
+.legend li { display: flex; align-items: center; gap: 0.4rem; }
+.legend .swatch {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid rgba(43, 36, 32, 0.3);
+}
+
+/* --- Controls --- */
+.controls {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 1.2rem clamp(1rem, 4vw, 3rem);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 1.2rem 1.6rem;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-ui);
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.control-group label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+}
+
+.control-group select {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  padding: 0.45rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid var(--rule);
+  background: #fff;
+  color: var(--ink);
+  min-width: 11rem;
+}
+
+.result-count {
+  margin: 0 0 0 auto;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+/* --- Fort grid --- */
+main {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 1.6rem clamp(1rem, 4vw, 3rem) 4rem;
+}
+
+.fort-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.4rem;
+}
+
+.fort-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.fort-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(43, 36, 32, 0.14);
+}
+
+.thumb-wrap {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: #14181c;
+}
+
+.thumb-wrap.no-thumb { background: var(--paper-raised); }
+
+.thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.fate-chip {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.6rem;
+  border-radius: 999px;
+  color: #fff;
+}
+
+.card-body {
+  padding: 0.9rem 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.card-eyebrow {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.card-body h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 0.1rem 0 0.1rem;
+  line-height: 1.15;
+}
+
+.card-name-en {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  margin: 0 0 0.6rem;
+}
+
+.card-facts {
+  margin: 0.3rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.15rem 0.6rem;
+}
+
+.card-facts dt { color: var(--ink-soft); }
+.card-facts dd { margin: 0; text-align: right; font-weight: 600; }
+
+.empty-state {
+  text-align: center;
+  color: var(--ink-soft);
+  font-style: italic;
+  padding: 3rem 0;
+}
+
+@media (max-width: 640px) {
+  .controls { flex-direction: column; align-items: stretch; }
+  .control-group select { min-width: 0; width: 100%; }
+  .result-count { margin: 0.3rem 0 0; }
+  .fort-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
+}
+
+@media (max-width: 420px) {
+  .fort-grid { grid-template-columns: 1fr; }
+}

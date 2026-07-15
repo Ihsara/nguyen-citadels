@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fort — Vauban Came East, Then Faded</title>
+<meta name="description" content="One Nguyễn-dynasty Vauban citadel: its history, its traced star shape over today's streets, and the life that fills — or doesn't fill — its walls now.">
+<link rel="stylesheet" href="lib/maplibre-gl.css">
+<link rel="stylesheet" href="lib/fonts.css?v=20260715">
+<link rel="stylesheet" href="fort.css?v=20260715">
+<link rel="modulepreload" href="lib/historical_overlay.js">
+</head>
+<body>
+<nav class="site-nav">
+  <a href="index.html">Vauban Came East, Then Faded</a>
+  <a href="atlas.html">Atlas of 19 forts &rarr;</a>
+</nav>
+
+<div id="not-found" class="not-found" hidden>
+  <h1>Fort not found</h1>
+  <p>No citadel matches this link. <a href="atlas.html">Browse the atlas of 19 forts.</a></p>
+</div>
+
+<header class="fort-header" id="fort-header" hidden>
+  <p class="eyebrow" id="fort-province">&nbsp;</p>
+  <h1 id="fort-name-vi">&nbsp;</h1>
+  <p class="name-en" id="fort-name-en">&nbsp;</p>
+  <span class="fate-chip" id="fort-fate-chip"><span class="dot"></span><span id="fort-fate-label"></span></span>
+</header>
+
+<main id="fort-main" hidden>
+  <section id="history">
+    <h2>History</h2>
+    <ul class="fact-list" id="history-facts"></ul>
+    <div class="vauban-note" id="history-vauban-note"></div>
+    <div class="sources" id="history-sources">
+      <h3>Sources</h3>
+      <ol id="history-sources-list"></ol>
+    </div>
+  </section>
+
+  <section id="shape">
+    <h2>Shape</h2>
+    <div id="map"></div>
+    <p class="shape-caption">The traced star polygon, glowing, over today's streets.</p>
+  </section>
+
+  <section id="now">
+    <h2>Now</h2>
+    <div class="now-grid">
+      <img class="sat-thumb" id="now-sat-thumb" alt="">
+      <div>
+        <div class="now-stats" id="now-stats"></div>
+        <ul class="landuse-list" id="now-landuse"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="life">
+    <h2>Life</h2>
+    <div class="life-bars" id="life-bars"></div>
+    <p class="caption-now" id="life-caption" hidden></p>
+  </section>
+</main>
+
+<script src="lib/maplibre-gl.js"></script>
+<script type="module" src="fort.js?v=20260715"></script>
+</body>
+</html>

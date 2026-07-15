@@ -1,0 +1,284 @@
+/* fort.css — nguyen-citadels per-fort page
+   Register: LIGHT / warm ground (heritage atlas). Parchment paper, ink text.
+   The ONE exception: the #map star poster goes dark/muted so the glowing
+   star line luminesces over today's streets — local to the map only. */
+
+:root {
+  --paper: #f4efe4;
+  --paper-raised: #ede5d3;
+  --ink: #2b2420;
+  --ink-soft: #6b5f52;
+  --rule: #d8cbb3;
+  --accent-gold: #e8c37a;
+  --font-display: "Alegreya", Georgia, serif;
+  --font-body: "Lora", Georgia, serif;
+  --font-ui: "Be Vietnam Pro", "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.55;
+}
+
+a { color: #7a4a1f; }
+a:hover { color: #a5642a; }
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+.site-nav a { text-decoration: none; color: var(--ink-soft); }
+.site-nav a:hover { color: var(--ink); }
+
+.fort-header {
+  padding: clamp(1.5rem, 5vw, 3.5rem) clamp(1rem, 4vw, 3rem) 1.5rem;
+  max-width: 68rem;
+  margin: 0 auto;
+}
+
+.fort-header .eyebrow {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+  margin: 0 0 0.4rem;
+}
+
+.fort-header h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.2rem, 6vw, 3.6rem);
+  margin: 0 0 0.2rem;
+  line-height: 1.05;
+}
+
+.fort-header .name-en {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 1.1rem;
+  margin: 0 0 0.6rem;
+}
+
+.fate-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.32rem 0.75rem;
+  border-radius: 999px;
+  color: #fff;
+}
+
+.fate-chip .dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: currentColor;
+  border: 1px solid rgba(255,255,255,0.6);
+}
+
+main {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 4vw, 3rem) 4rem;
+}
+
+section {
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+section:first-of-type { border-top: none; }
+
+section h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  margin: 0 0 1.2rem;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem 2rem;
+}
+
+/* --- History --- */
+.fact-list { list-style: none; margin: 0; padding: 0; }
+.fact-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed var(--rule);
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+}
+.fact-list li .k { color: var(--ink-soft); }
+.fact-list li .v { font-weight: 600; text-align: right; }
+
+.vauban-note {
+  background: var(--paper-raised);
+  border-left: 3px solid var(--accent-gold);
+  padding: 0.9rem 1.1rem;
+  font-style: italic;
+  margin: 1.2rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.sources {
+  margin-top: 1.5rem;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+}
+.sources h3 {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  margin: 0 0 0.6rem;
+}
+.sources ol { padding-left: 1.2rem; margin: 0; }
+.sources li { margin-bottom: 0.7rem; color: var(--ink-soft); }
+.sources li a { display: inline-block; margin-top: 0.15rem; }
+
+/* --- Shape: the map, local dark exception --- */
+#map {
+  width: 100%;
+  height: min(70vh, 560px);
+  min-height: 320px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #14181c; /* dark ground so the glowing star luminesces */
+  border: 1px solid var(--rule);
+}
+
+.shape-caption {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+/* --- Now --- */
+.now-grid {
+  display: grid;
+  grid-template-columns: minmax(220px, 380px) 1fr;
+  gap: 1.5rem 2rem;
+  align-items: start;
+}
+
+.sat-thumb {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--rule);
+  display: block;
+}
+
+.now-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.stat-tile {
+  background: var(--paper-raised);
+  border-radius: 6px;
+  padding: 0.9rem 1rem;
+}
+.stat-tile .num {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.6rem;
+  display: block;
+}
+.stat-tile .label {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+}
+
+.landuse-list {
+  grid-column: 1 / -1;
+  margin: 0.5rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  list-style: none;
+  padding: 0;
+}
+.landuse-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+  border-bottom: 1px dashed var(--rule);
+}
+
+.empty-note {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+/* --- Life --- */
+.life-bars { display: flex; flex-direction: column; gap: 0.7rem; margin-bottom: 1.5rem; }
+.life-bar-row {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr 3.2rem;
+  align-items: center;
+  gap: 0.7rem;
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+}
+.life-bar-track {
+  background: var(--paper-raised);
+  border-radius: 4px;
+  height: 1.1rem;
+  overflow: hidden;
+}
+.life-bar-fill { height: 100%; border-radius: 4px; }
+.life-bar-row .count { text-align: right; color: var(--ink-soft); }
+
+.caption-now {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--rule);
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.not-found {
+  max-width: 40rem;
+  margin: 6rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+.not-found h1 { font-family: var(--font-display); font-size: 2rem; }
+
+@media (max-width: 640px) {
+  .now-grid { grid-template-columns: 1fr; }
+  .fact-list li { flex-direction: column; gap: 0.1rem; }
+  .fact-list li .v { text-align: left; }
+  .life-bar-row { grid-template-columns: 4.4rem 1fr 2.6rem; }
+}

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas — Vauban Came East, Then Faded</title>
+<meta name="description" content="19 Nguyễn-dynasty Vauban citadels of Vietnam: sort, filter, and browse the network — then open any fort for its full history, shape, and life today.">
+<link rel="stylesheet" href="lib/maplibre-gl.css">
+<link rel="stylesheet" href="lib/fonts.css?v=20260715">
+<link rel="stylesheet" href="atlas.css?v=20260715">
+</head>
+<body>
+<nav class="site-nav">
+  <a href="index.html">Vauban Came East, Then Faded</a>
+  <a href="atlas.html" class="current">Atlas of 19 forts</a>
+</nav>
+
+<header class="atlas-header">
+  <p class="eyebrow">Atlas &middot; explorer</p>
+  <h1>19 citadels, one network</h1>
+  <p class="lede">European star-fort geometry, planted across Nguyễn Vietnam (1802&ndash;1945).
+    Sort and filter the forts below, or scan the network map for where the walls still
+    stand &mdash; and where the city has quietly taken them back.</p>
+</header>
+
+<section class="map-section">
+  <div id="map" aria-label="Map of all 19 citadels, colored by fate"></div>
+  <ul class="legend" id="map-legend"></ul>
+</section>
+
+<section class="controls" aria-label="Sort and filter forts">
+  <div class="control-group">
+    <label for="sort-select">Sort by</label>
+    <select id="sort-select">
+      <option value="name">Name</option>
+      <option value="year">Year built</option>
+      <option value="perimeter">Perimeter</option>
+    </select>
+  </div>
+  <div class="control-group">
+    <label for="filter-province">Province</label>
+    <select id="filter-province">
+      <option value="">All provinces</option>
+    </select>
+  </div>
+  <div class="control-group">
+    <label for="filter-fate">Fate</label>
+    <select id="filter-fate">
+      <option value="">All fates</option>
+    </select>
+  </div>
+  <div class="control-group">
+    <label for="filter-ruler">Ruler</label>
+    <select id="filter-ruler">
+      <option value="">All rulers</option>
+    </select>
+  </div>
+  <p class="result-count" id="result-count"></p>
+</section>
+
+<main>
+  <div class="fort-grid" id="fort-grid"></div>
+  <p class="empty-state" id="empty-state" hidden>No forts match these filters.</p>
+</main>
+
+<script src="lib/maplibre-gl.js"></script>
+<script type="module" src="atlas.js?v=20260715"></script>
+</body>
+</html>

@@ -1,0 +1,1494 @@
+{
+  "forts": [
+    {
+      "bastions": 4,
+      "built_year": 1804,
+      "caption_now": "Hạc Thành has been almost entirely absorbed into modern Thanh Hóa city; no confirmed above-ground fabric remains, and this outline is a coarse approximation, not a surveyed trace.",
+      "engineer": "Nguyễn court engineers; general Vauban-model attribution — one of about 32 new citadels built 1802-1844 with a design resembling Vauban architecture",
+      "fate": "built_over",
+      "name_en": "Hac Thanh / Thanh Hoa Citadel",
+      "name_vi": "Hạc Thành",
+      "now": {
+        "area_m2": 228710.8,
+        "buildings": {
+          "count": 12,
+          "footprint_m2": 8547.2
+        },
+        "landuse": {
+          "commercial": 0.1157
+        },
+        "lives": {
+          "civic": 43,
+          "eat": 89,
+          "other": 44,
+          "serve": 159,
+          "shop": 171
+        },
+        "poi_total": 506
+      },
+      "perimeter_m": 1800.0,
+      "province": "Thanh Hóa",
+      "ruler": "Gia Long",
+      "slug": "hạc-thành",
+      "sources": [
+        {
+          "cite": "Saigoneer, \"Vauban Architecture: The Foundation of Central and Northern Vietnam's Citadels\", https://www.saigoneer.com/vietnam-heritage/18626-vauban-architecture-the-foundation-of-central-and-northern-vietnam-s-citadels",
+          "claim": "Hạc Thành (Thanh Hóa Citadel) was built in 1804 under Gia Long, classified as one of roughly 32 citadels built 1802-1844 with a design resembling Vauban architecture; noted on a 1909 French map but perimeter, bastion count and wall material could not be pinned down in the sources consulted."
+        },
+        {
+          "cite": "Slideshare, \"THÀNH VAUBAN Ở VIỆT NAM — trường hợp kinh thành Huế\" (academic survey), https://www.slideshare.net/slideshow/thnh-vauban-vit-nam-trng-hp-kinh-thnh-hu-573016c4/246497093",
+          "claim": "Hạc Thành is listed among the standard Vauban-model citadel survey group alongside Huế; a 2026-07-15 research pass could not corroborate its precise perimeter, bastion count, or current surviving fabric beyond the passing 1909 map mention — flagged for lower confidence, hence the coarse (not surveyed) polygon here."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              105.778548,
+              19.808721
+            ],
+            [
+              105.778548,
+              19.804679
+            ],
+            [
+              105.774252,
+              19.804679
+            ],
+            [
+              105.774252,
+              19.808721
+            ],
+            [
+              105.778548,
+              19.808721
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Nguyễn court engineers, Vauban trace; perimeter, bastion count and wall material are thin in the sources consulted (noted only on a 1909 French map) so this polygon is a COARSE approximate footprint around the noted city-center location, not a surveyed trace.",
+      "wall_style": "earth"
+    },
+    {
+      "bastions": 4,
+      "built_year": 1837,
+      "caption_now": "A fraction of Biên Hòa's laterite walls survive, renovated in 2014, on the shrunken remnant of a citadel the French cut to one-eighth its original size in 1861.",
+      "engineer": "Nguyễn court engineers; general Vauban-model attribution",
+      "fate": "fragments",
+      "name_en": "Bien Hoa Citadel",
+      "name_vi": "Thành Biên Hòa",
+      "now": {
+        "area_m2": 175400.3,
+        "buildings": {
+          "count": 32,
+          "footprint_m2": 17074.5
+        },
+        "landuse": {
+          "commercial": 0.1945,
+          "construction": 0.007,
+          "grass": 0.0051,
+          "retail": 0.0015
+        },
+        "lives": {
+          "civic": 14,
+          "eat": 40,
+          "other": 7,
+          "serve": 55,
+          "shop": 26
+        },
+        "poi_total": 142
+      },
+      "perimeter_m": 1645.0,
+      "province": "Đồng Nai",
+      "ruler": "Minh Mạng",
+      "slug": "thành-biên-hòa",
+      "sources": [
+        {
+          "cite": "Vietnam.vn, \"Đồng Nai has an ancient citadel in Biên Hòa\", https://www.vietnam.vn/en/dong-nai-co-mot-toa-thanh-co-o-bien-hoa-rong-11ha-hoan-thien-duoi-thoi-vua-minh-mang-nha-nguyen",
+          "claim": "Biên Hòa Citadel was rebuilt in earth in 1834 and expanded/reinforced to a full Vauban laterite trace in 1837 under Minh Mạng, with a perimeter of 1,645 m (388 trượng), wall height about 3.6 m, thickness about 4.24 m, and a moat 16.96 m wide and 2.5 m deep, covering over 18 hectares including the moat."
+        },
+        {
+          "cite": "Báo Đồng Nai, \"Awakening the potential of Bien Hoa citadel\", https://baodongnai.com.vn/english/202508/awakening-the-potential-of-bien-hoa-citadel-4060180/",
+          "claim": "The French reduced the citadel to one-eighth of its original area after capturing it in 1861; partial laterite walls and colonial-era buildings survive, and the site was renovated in 2014."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              106.825581,
+              10.946547
+            ],
+            [
+              106.825581,
+              10.942853
+            ],
+            [
+              106.821819,
+              10.942853
+            ],
+            [
+              106.821819,
+              10.946547
+            ],
+            [
+              106.825581,
+              10.946547
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Earth rebuild in 1834 with arc/crescent-influenced trace, expanded and reinforced with Vauban corner bastions in 1837; 4 gates and 2 flagposts, laterite walls, moat-ringed.",
+      "wall_style": "laterite"
+    },
+    {
+      "bastions": 4,
+      "built_year": 1814,
+      "caption_now": "Only a rebuilt replica gate marks where Thành Bình Định stood; the 1946 scorched-earth campaign erased the rest, leaving no visible wall trace.",
+      "engineer": "Nguyễn court engineers; general Vauban-model attribution — old Hoàng Đế/Chà Bàn citadel materials were reused, but the new trace is a fresh Nguyễn Vauban-style layout, not the pre-Nguyễn Chăm/Tây Sơn wall it replaced",
+      "fate": "erased",
+      "name_en": "Binh Dinh Citadel (An Nhon)",
+      "name_vi": "Thành Bình Định",
+      "now": {
+        "area_m2": 382052.6,
+        "buildings": {
+          "count": 0,
+          "footprint_m2": 0.0
+        },
+        "landuse": {
+          "residential": 0.4489
+        },
+        "lives": {
+          "civic": 1,
+          "eat": 0,
+          "other": 1,
+          "serve": 3,
+          "shop": 2
+        },
+        "poi_total": 7
+      },
+      "perimeter_m": 2400.0,
+      "province": "Bình Định",
+      "ruler": "Gia Long",
+      "slug": "thành-bình-định",
+      "sources": [
+        {
+          "cite": "Wikipedia tiếng Việt, \"Thành Bình Định\", https://vi.wikipedia.org/wiki/Th%C3%A0nh_B%C3%ACnh_%C4%90%E1%BB%8Bnh",
+          "claim": "Thành Bình Định was built fresh in 1814 under Gia Long near the older Hoàng Đế/Đồ Bàn site in An Nhơn, reusing old materials but laid out as a distinct Nguyễn Vauban-style citadel rather than the pre-Nguyễn Chăm/Tây Sơn wall it replaced."
+        },
+        {
+          "cite": "Báo Gia Lai, \"Dấu xưa thành cổ Bình Định\", https://baogialai.com.vn/dau-xua-thanh-co-binh-dinh-post391275.html",
+          "claim": "The citadel was fully destroyed in 1946 by the Việt Minh scorched-earth policy; only a rebuilt/replica east gate and a reception-hall replica remain, with no wall trace visible on satellite imagery."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              109.099476,
+              13.921295
+            ],
+            [
+              109.099476,
+              13.915905
+            ],
+            [
+              109.093924,
+              13.915905
+            ],
+            [
+              109.093924,
+              13.921295
+            ],
+            [
+              109.099476,
+              13.921295
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Built fresh in 1814 on/near the older Hoàng Đế/Đồ Bàn Chăm-Tây Sơn site, but to a distinct Nguyễn Vauban trace — not merely a reoccupation of the pre-existing walls; kept clearly distinguished in this atlas from the rejected Thành Đồ Bàn/Hoàng Đế site.",
+      "wall_style": "earth"
+    },
+    {
+      "bastions": 8,
+      "built_year": 1831,
+      "caption_now": "Châu Đốc's octagonal citadel has left no visible trace in the modern city; this outline is an approximate historical footprint only.",
+      "engineer": "Nguyễn court engineers; general Vauban-model attribution, part of the 32-citadel network built 1802-1844",
+      "fate": "erased",
+      "name_en": "Chau Doc Citadel (An Giang Citadel)",
+      "name_vi": "Thành Châu Đốc",
+      "now": {
+        "area_m2": 253145.0,
+        "buildings": {
+          "count": 0,
+          "footprint_m2": 0.0
+        },
+        "landuse": {},
+        "lives": {
+          "civic": 2,
+          "eat": 5,
+          "other": 1,
+          "serve": 10,
+          "shop": 6
+        },
+        "poi_total": 24
+      },
+      "perimeter_m": 1800.0,
+      "province": "An Giang",
+      "ruler": "Gia Long (1815 first citadel) to Minh Mạng (1831 octagonal rebuild)",
+      "slug": "thành-châu-đốc",
+      "sources": [
+        {
+          "cite": "Văn Nghệ An Giang, \"Quá trình hình thành, thay đổi tên tỉnh An Giang và TP Châu Đốc\", https://vannghe.angiang.gov.vn/qua-trinh-hinh-thanh-thay-doi-ten-tinh-an-giang-va-thanh-pho-chau-doc-thanh-pho-long-xuyen/",
+          "claim": "Châu Đốc's first citadel was built in 1815 under Gia Long; it was demolished and rebuilt in 1831 under Minh Mạng to an octagonal (bát quái) Vauban trace east of the original fort, as part of the standard 32-citadel provincial network built 1802-1844."
+        },
+        {
+          "cite": "Wikipedia tiếng Việt, \"Châu Đốc (thành phố)\", https://vi.wikipedia.org/wiki/Ch%C3%A2u_%C4%90%E1%BB%91c_(th%C3%A0nh_ph%E1%BB%91)",
+          "claim": "The citadel is fully absorbed into modern Châu Đốc city with no surface trace identified in the sources consulted; perimeter and bastion count could not be pinned down further, so this record's polygon is an approximate footprint, not a surveyed trace."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              105.1181,
+              10.703741
+            ],
+            [
+              105.12,
+              10.702967
+            ],
+            [
+              105.120788,
+              10.7011
+            ],
+            [
+              105.12,
+              10.699233
+            ],
+            [
+              105.1181,
+              10.698459
+            ],
+            [
+              105.1162,
+              10.699233
+            ],
+            [
+              105.115412,
+              10.7011
+            ],
+            [
+              105.1162,
+              10.702967
+            ],
+            [
+              105.1181,
+              10.703741
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "First citadel built 1815; demolished and rebuilt in 1831 to an octagonal (bát quái) Vauban trace east of the old fort.",
+      "wall_style": "earth"
+    },
+    {
+      "bastions": 6,
+      "built_year": 1805,
+      "caption_now": "Bắc Ninh's hexagonal moat and a handful of gates survive, with a military school now occupying part of the old enclosure.",
+      "engineer": "Nguyễn court engineers; first Nguyễn citadel built as a regular hexagon in the style of Vauban — general stylistic attribution",
+      "fate": "fragments",
+      "name_en": "Bac Ninh Citadel",
+      "name_vi": "Thành cổ Bắc Ninh",
+      "now": {
+        "area_m2": 375877.9,
+        "buildings": {
+          "count": 214,
+          "footprint_m2": 49880.3
+        },
+        "landuse": {
+          "commercial": 0.3322,
+          "grass": 0.0008,
+          "residential": 0.0352
+        },
+        "lives": {
+          "civic": 33,
+          "eat": 44,
+          "other": 41,
+          "serve": 105,
+          "shop": 67
+        },
+        "poi_total": 290
+      },
+      "perimeter_m": 2128.0,
+      "province": "Bắc Ninh",
+      "ruler": "Gia Long",
+      "slug": "thành-cổ-bắc-ninh",
+      "sources": [
+        {
+          "cite": "Wikipedia tiếng Việt, \"Thành cổ Bắc Ninh\", https://vi.wikipedia.org/wiki/Th%C3%A0nh_c%E1%BB%95_B%E1%BA%AFc_Ninh",
+          "claim": "Bắc Ninh Citadel was built in 1805 under Gia Long as a regular hexagon, roughly 532 trượng (about 2,128 m) in perimeter, covering about 545,000 sqm — the first Nguyễn citadel built as a regular hexagon in Vauban style."
+        },
+        {
+          "cite": "Kupi Travel Guide, \"Bac Ninh Travel Guide\", https://www.kupi.com/en/explore/vietnam/bac-ninh/history",
+          "claim": "Three to four gates and sections of wall and moat survive at Bắc Ninh Citadel; part of the site is occupied by the Political Officers School of the Ministry of Defense."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              106.0763,
+              21.189286
+            ],
+            [
+              106.079259,
+              21.187693
+            ],
+            [
+              106.079259,
+              21.184507
+            ],
+            [
+              106.0763,
+              21.182914
+            ],
+            [
+              106.073341,
+              21.184507
+            ],
+            [
+              106.073341,
+              21.187693
+            ],
+            [
+              106.0763,
+              21.189286
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Regular hexagon trace with corner bastions and a full moat, the first Nguyễn provincial citadel deliberately built to a hexagonal Vauban plan.",
+      "wall_style": "earth"
+    },
+    {
+      "bastions": 6,
+      "built_year": 1793,
+      "caption_now": "Diên Khánh's hexagonal earthworks and four of its six original gates still stand, folded into the small town that grew up inside them.",
+      "engineer": "Built under command of Bá Đa Lộc (Pigneau de Béhaine), Olivier de Puymanel, and Nguyễn Phúc Cảnh — one of the most direct, high-confidence Puymanel attributions of any Nguyễn citadel",
+      "fate": "fragments",
+      "name_en": "Dien Khanh Citadel",
+      "name_vi": "Thành cổ Diên Khánh",
+      "now": {
+        "area_m2": 548554.0,
+        "buildings": {
+          "count": 49,
+          "footprint_m2": 11570.1
+        },
+        "landuse": {
+          "grass": 0.001,
+          "military": 0.0009,
+          "residential": 0.4199
+        },
+        "lives": {
+          "civic": 14,
+          "eat": 25,
+          "other": 6,
+          "serve": 42,
+          "shop": 54
+        },
+        "poi_total": 141
+      },
+      "perimeter_m": 2694.0,
+      "province": "Khánh Hòa",
+      "ruler": "Nguyễn Ánh (pre-Gia Long)",
+      "slug": "thành-cổ-diên-khánh",
+      "sources": [
+        {
+          "cite": "Saigoneer, \"Vauban Architecture: The Foundation of Central and Northern Vietnam's Citadels\", https://www.saigoneer.com/vietnam-heritage/18626-vauban-architecture-the-foundation-of-central-and-northern-vietnam-s-citadels",
+          "claim": "Diên Khánh Citadel was built in 1793 under the command of Bá Đa Lộc (Pigneau de Béhaine), Olivier de Puymanel, and Nguyễn Phúc Cảnh, laid out as an irregular hexagon roughly 2,694 m in perimeter with corner bastions."
+        },
+        {
+          "cite": "Sở Văn hóa, Thể thao và Du lịch Khánh Hòa, \"Dấu tích thành lũy quân sự duy nhất của triều Nguyễn ở Khánh Hòa\", https://scov.gov.vn/dat-nuoc-con-nguoi/dau-tich-thanh-luy-quan-su-duy-nhat-cua-trieu-nguyen-o-khanh-hoa.html",
+          "claim": "The citadel's hexagonal earthwork trace, partial walls, and 4 of its original 6 gates survive today, restored in 2003 and 2014; it is the only surviving military citadel of the Nguyễn dynasty in Khánh Hòa."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              109.0983,
+              12.261833
+            ],
+            [
+              109.101875,
+              12.259817
+            ],
+            [
+              109.101875,
+              12.255783
+            ],
+            [
+              109.0983,
+              12.253767
+            ],
+            [
+              109.094725,
+              12.255783
+            ],
+            [
+              109.094725,
+              12.259817
+            ],
+            [
+              109.0983,
+              12.261833
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Irregular hexagon trace with a corner bastion at each vertex, laid out under Puymanel's direct command in 1793 — the formative Vauban-style fort that preceded Gia Định and Huế.",
+      "wall_style": "earth"
+    },
+    {
+      "bastions": 4,
+      "built_year": 1833,
+      "caption_now": "Only about 220 m of Nam Định's North Gate wall still stands, encroached on by the modern city that has swallowed the rest of the largest provincial citadel of the dynasty.",
+      "engineer": "Nguyễn court engineers; general Vauban-model attribution (kiến trúc Vô-băng), no individual engineer named",
+      "fate": "fragments",
+      "name_en": "Nam Dinh Citadel",
+      "name_vi": "Thành cổ Nam Định",
+      "now": {
+        "area_m2": 786251.8,
+        "buildings": {
+          "count": 26,
+          "footprint_m2": 19029.4
+        },
+        "landuse": {
+          "commercial": 0.0146
+        },
+        "lives": {
+          "civic": 41,
+          "eat": 50,
+          "other": 23,
+          "serve": 136,
+          "shop": 147
+        },
+        "poi_total": 397
+      },
+      "perimeter_m": 3324.0,
+      "province": "Nam Định",
+      "ruler": "Gia Long (1804 earth fort) to Minh Mạng (1833 brick Vauban rebuild)",
+      "slug": "thành-cổ-nam-định",
+      "sources": [
+        {
+          "cite": "Cục Văn thư và Lưu trữ Nhà nước, \"Thành Nam dưới triều Nguyễn và Pháp thuộc\", https://www.archives.org.vn/gioi-thieu-tai-lieu-nghiep-vu/thanh-nam-duoi-trieu-nguyen-va-phap-thuoc.htm",
+          "claim": "Nam Định Citadel began as an earth fort in 1804 under Gia Long and was rebuilt in brick in 1833 (Minh Mạng, year 14), measuring 830 trượng 7 thước 3 tấc (about 3,324 m) in perimeter — the largest provincial citadel of the Nguyễn dynasty by this measure."
+        },
+        {
+          "cite": "Dân trí, \"Thành cổ Nam Định hơn 200 năm tuổi đứng trước nguy cơ trở thành phế tích\", https://dantri.com.vn/van-hoa/thanh-co-nam-dinh-hon-200-nam-tuoi-dung-truoc-nguy-co-tro-thanh-phe-tich-20171217081323365.htm",
+          "claim": "Only about 220 m of the North Gate wall section survives today, in phường Cửa Bắc, under severe encroachment pressure as of 2017 reporting; the full historic outline is reconstructable from old maps but is otherwise built over by the modern city."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              106.172683,
+              20.431232
+            ],
+            [
+              106.172683,
+              20.423768
+            ],
+            [
+              106.164717,
+              20.423768
+            ],
+            [
+              106.164717,
+              20.431232
+            ],
+            [
+              106.172683,
+              20.431232
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Square overall trace with broken, angled wall runs typical of Vauban bastion projections; rebuilt in brick in 1833, the largest provincial citadel of the Nguyễn dynasty by perimeter.",
+      "wall_style": "brick"
+    },
+    {
+      "bastions": 6,
+      "built_year": 1831,
+      "caption_now": "Three of Nghệ An's original gates and stretches of its moat still stand in Vinh city, protected as a National Historic Site since 1998.",
+      "engineer": "Nguyễn court military engineers; general Vauban-model attribution — 1,000 Thanh Hóa and 4,000 Nghệ An troops mobilized for construction",
+      "fate": "fragments",
+      "name_en": "Nghe An / Vinh Citadel",
+      "name_vi": "Thành cổ Nghệ An",
+      "now": {
+        "area_m2": 467819.2,
+        "buildings": {
+          "count": 11,
+          "footprint_m2": 5048.7
+        },
+        "landuse": {
+          "residential": 0.0139
+        },
+        "lives": {
+          "civic": 38,
+          "eat": 69,
+          "other": 32,
+          "serve": 123,
+          "shop": 135
+        },
+        "poi_total": 397
+      },
+      "perimeter_m": 2412.0,
+      "province": "Nghệ An",
+      "ruler": "Gia Long (1804 earth fort) to Minh Mạng (1831 stone Vauban rebuild)",
+      "slug": "thành-cổ-nghệ-an",
+      "sources": [
+        {
+          "cite": "Vietnam.vn, \"Vinh Citadel - Historical relic in the heart of Nghe An\", https://www.vietnam.vn/en/thanh-co-vinh-chung-tich-lich-su-giua-long-xu-nghe",
+          "claim": "Nghệ An Citadel (Thành cổ Vinh) began as an earth fort in 1804 under Gia Long and was rebuilt in stone to a hexagonal Vauban trace in 1831 under Minh Mạng, with a perimeter of 603 trượng (about 2,412 m), height 4.42 m, area 420,000 sqm, and a moat 28 m wide and 3.2 m deep."
+        },
+        {
+          "cite": "Wikipedia tiếng Việt, \"Thành Nghệ An\", https://vi.wikipedia.org/wiki/Th%C3%A0nh_Ngh%E1%BB%87_An",
+          "claim": "Three gates — Tiền, Tả, and Hữu môn — and moat sections survive at Nghệ An Citadel, which has been a National Historic Site since 1998."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              105.6813,
+              18.683211
+            ],
+            [
+              105.684601,
+              18.681406
+            ],
+            [
+              105.684601,
+              18.677794
+            ],
+            [
+              105.6813,
+              18.675989
+            ],
+            [
+              105.677999,
+              18.677794
+            ],
+            [
+              105.677999,
+              18.681406
+            ],
+            [
+              105.6813,
+              18.683211
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Hexagonal (6-sided) stone trace built in 1831, replacing the 1804 earth fort, with three surviving gates (Tiền, Tả, Hữu môn) named directly in the sources. Schema's wall_style enum has no 'stone' category; mapped to 'brick' as the nearest masonry classification — the walls are stone, not fired brick.",
+      "wall_style": "brick"
+    },
+    {
+      "bastions": 5,
+      "built_year": 1815,
+      "caption_now": "Quảng Ngãi's citadel was leveled in the 1947 scorched-earth campaign; only the road axis in front of the provincial square still hints at its old rampart lines.",
+      "engineer": "Nguyễn court engineers; general Vauban-model attribution — pentagonal Vauban citadels built under Gia Long in 1807 group Quảng Ngãi with Hải Dương",
+      "fate": "erased",
+      "name_en": "Quang Ngai Citadel (Cam Thanh)",
+      "name_vi": "Thành cổ Quảng Ngãi",
+      "now": {
+        "area_m2": 266584.0,
+        "buildings": {
+          "count": 689,
+          "footprint_m2": 81457.9
+        },
+        "landuse": {},
+        "lives": {
+          "civic": 35,
+          "eat": 62,
+          "other": 15,
+          "serve": 58,
+          "shop": 59
+        },
+        "poi_total": 229
+      },
+      "perimeter_m": 1900.0,
+      "province": "Quảng Ngãi",
+      "ruler": "Gia Long",
+      "slug": "thành-cổ-quảng-ngãi",
+      "sources": [
+        {
+          "cite": "Wikipedia tiếng Việt, \"Thành cổ Quảng Ngãi\", https://vi.wikipedia.org/wiki/Th%C3%A0nh_c%E1%BB%95_Qu%E1%BA%A3ng_Ng%C3%A3i",
+          "claim": "Quảng Ngãi Citadel (Cẩm Thành) was begun in 1807 in Chánh Mông, Tư Nghĩa district, under Gia Long and completed in 1815, part of a group of pentagonal Vauban-model citadels built alongside Hải Dương that year."
+        },
+        {
+          "cite": "Thanh Niên, \"Tìm lại dấu xưa: Thành cổ Quảng Ngãi\", https://thanhnien.vn/tim-lai-dau-xua-thanh-co-quang-ngai-185240311224507781.htm",
+          "claim": "The citadel was completely destroyed in 1947 during the Việt Minh scorched-earth resistance campaign; only faint traces of the east and south rampart lines remain, and the overall footprint can still be read from the surviving east-west road axis in front of the Ninh Thọ Hotel / provincial square."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              108.8079,
+              15.123404
+            ],
+            [
+              108.810761,
+              15.121397
+            ],
+            [
+              108.809668,
+              15.118151
+            ],
+            [
+              108.806132,
+              15.118151
+            ],
+            [
+              108.805039,
+              15.121397
+            ],
+            [
+              108.8079,
+              15.123404
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Described in some sources as originally pentagonal; the remaining outline per on-site reporting reads as a square with eight protruding corners — begun 1807 (Chánh Mông, Tư Nghĩa district), completed 1815.",
+      "wall_style": "earth"
+    },
+    {
+      "bastions": 4,
+      "built_year": 1837,
+      "caption_now": "Quảng Trị's citadel, famous as the 1972 battlefield, survives today as a restored memorial park with partially reconstructed wall lines and gates.",
+      "engineer": "Nguyễn court engineers; general Vauban-model attribution, no individual engineer named",
+      "fate": "fragments",
+      "name_en": "Quang Tri Citadel",
+      "name_vi": "Thành cổ Quảng Trị",
+      "now": {
+        "area_m2": 300629.7,
+        "buildings": {
+          "count": 0,
+          "footprint_m2": 0.0
+        },
+        "landuse": {},
+        "lives": {
+          "civic": 9,
+          "eat": 23,
+          "other": 3,
+          "serve": 26,
+          "shop": 30
+        },
+        "poi_total": 91
+      },
+      "perimeter_m": 2100.0,
+      "province": "Quảng Trị",
+      "ruler": "Gia Long (1809 earth fort, relocated) to Minh Mạng (brick Vauban rebuild)",
+      "slug": "thành-cổ-quảng-trị",
+      "sources": [
+        {
+          "cite": "Wikipedia, \"Citadel of Quang Tri\", https://en.wikipedia.org/wiki/Citadel_of_Qu%E1%BA%A3ng_Tr%E1%BB%8B",
+          "claim": "Quảng Trị Citadel began as an earth fort relocated to the present Thạch Hãn site in 1809 under Gia Long, and was rebuilt in brick to a Vauban square trace with 4 corner bastions (per Wikipedia, in 1837 under Minh Mạng); perimeter 2,046.8-2,160 m, area 18.56 hectares."
+        },
+        {
+          "cite": "Ashui.com, \"Kiến trúc thành lũy thời nhà Nguyễn\", https://ashui.com/kien-truc-thanh-luy-thoi-nha-nguyen/",
+          "claim": "An independent academic survey gives the brick rebuild year as 1827 rather than 1837 — a minor date discrepancy between the two sources that remains unresolved; wall base about 13.5 m thick, wall approximately 4 m tall."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              107.189963,
+              16.749058
+            ],
+            [
+              107.189963,
+              16.744342
+            ],
+            [
+              107.185037,
+              16.744342
+            ],
+            [
+              107.185037,
+              16.749058
+            ],
+            [
+              107.189963,
+              16.749058
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Square plan with 4 protruding corner bastions; earth fort relocated to the present site in 1809, rebuilt in brick under Minh Mạng — sources vary on the exact brick-rebuild year (Wikipedia: 1837; Ashui.com academic survey: 1827), noted as a minor unresolved date discrepancy.",
+      "wall_style": "brick"
+    },
+    {
+      "bastions": 4,
+      "built_year": 1822,
+      "caption_now": "Sơn Tây's laterite walls, gates and moat still trace a clean square in the middle of the ward that grew up around them.",
+      "engineer": "Nguyễn court engineers, ordered to build according to Vauban architecture; no individual Western engineer named",
+      "fate": "fragments",
+      "name_en": "Son Tay Citadel",
+      "name_vi": "Thành cổ Sơn Tây",
+      "now": {
+        "area_m2": 183930.4,
+        "buildings": {
+          "count": 439,
+          "footprint_m2": 39156.5
+        },
+        "landuse": {
+          "forest": 0.0234,
+          "grass": 0.0006
+        },
+        "lives": {
+          "civic": 12,
+          "eat": 15,
+          "other": 1,
+          "serve": 8,
+          "shop": 31
+        },
+        "poi_total": 67
+      },
+      "perimeter_m": 1600.0,
+      "province": "Hà Nội (Sơn Tây)",
+      "ruler": "Minh Mạng",
+      "slug": "thành-cổ-sơn-tây",
+      "sources": [
+        {
+          "cite": "Vietnam News, \"Son Tay ancient citadel shines with stunning architecture and history\", https://vietnamnews.vn/sunday/1456959/son-tay-ancient-citadel-shines-with-stunning-architecture-and-history.html",
+          "claim": "Son Tay Citadel was built in 1822 under Minh Mạng as a square laterite fort with corner bastions, roughly 400 m per side (about 1,600 m perimeter) — the only Nguyễn-dynasty citadel built entirely of laterite."
+        },
+        {
+          "cite": "Wikipedia tiếng Việt, \"Thành cổ Sơn Tây\", https://vi.wikipedia.org/wiki/Th%C3%A0nh_c%E1%BB%95_S%C6%A1n_T%C3%A2y",
+          "claim": "Walls, gates and moat sections of Sơn Tây Citadel survive today and it has been a national monument since 1994; the square outline with its moat is clearly visible on satellite imagery."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              105.503926,
+              21.138297
+            ],
+            [
+              105.503926,
+              21.134703
+            ],
+            [
+              105.500074,
+              21.134703
+            ],
+            [
+              105.500074,
+              21.138297
+            ],
+            [
+              105.503926,
+              21.138297
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Square trace with corner bastions, each side about 400 m, and the only Nguyễn citadel built entirely of laterite (ong stone) rather than brick or earth.",
+      "wall_style": "laterite"
+    },
+    {
+      "bastions": 8,
+      "built_year": 1790,
+      "caption_now": "The Bát Quái star fort is gone entirely — its footprint now underlies HCMC University of Social Sciences and Humanities and the HTV television headquarters.",
+      "engineer": "Designed by Théodore Lebrun and Olivier de Puymanel with about 30,000 laborers — the strongest, most direct Puymanel/Lebrun attribution of any Nguyễn citadel",
+      "fate": "erased",
+      "name_en": "Gia Dinh Citadel (Bat Quai Citadel, first Saigon citadel)",
+      "name_vi": "Thành Gia Định",
+      "now": {
+        "area_m2": 1363360.3,
+        "buildings": {
+          "count": 734,
+          "footprint_m2": 307738.6
+        },
+        "landuse": {
+          "commercial": 0.043,
+          "construction": 0.0038,
+          "flowerbed": 0.0003,
+          "grass": 0.0085,
+          "military": 0.004,
+          "orchard": 0.0004,
+          "recreation_ground": 0.0096,
+          "religious": 0.0013
+        },
+        "lives": {
+          "civic": 672,
+          "eat": 1112,
+          "other": 151,
+          "serve": 1520,
+          "shop": 515
+        },
+        "poi_total": 3970
+      },
+      "perimeter_m": 4176.0,
+      "province": "Thành phố Hồ Chí Minh",
+      "ruler": "Nguyễn Ánh (pre-Gia Long)",
+      "slug": "thành-gia-định",
+      "sources": [
+        {
+          "cite": "Wikipedia, \"Citadel of Saigon\", https://en.wikipedia.org/wiki/Citadel_of_Saigon",
+          "claim": "Gia Định Citadel (thành Quy / thành Bát Quái) was designed in 1790 by Théodore Lebrun and Olivier de Puymanel as an octagonal, polygonal Vauban trace with a 4,176 m perimeter, built with about 30,000 laborers; it was demolished by Minh Mạng in 1835-37 after the Lê Văn Khôi revolt."
+        },
+        {
+          "cite": "Saigoneer, \"Unearthed: Tracing the Past Citadels of Southern Vietnam\", https://saigoneer.com/vietnam-heritage/18394-unearth-tracing-the-past-citadels-of-southern-vietnam",
+          "claim": "No surface trace of the octagonal citadel survives; its footprint is reconstructed from the 1815 Trần Văn Học survey map overlaid on the modern HCMC street grid — this record's polygon is a historical-reconstruction approximation, not a surveyed outline."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              106.6953,
+              10.786327
+            ],
+            [
+              106.69971,
+              10.784532
+            ],
+            [
+              106.701537,
+              10.7802
+            ],
+            [
+              106.69971,
+              10.775868
+            ],
+            [
+              106.6953,
+              10.774073
+            ],
+            [
+              106.69089,
+              10.775868
+            ],
+            [
+              106.689063,
+              10.7802
+            ],
+            [
+              106.69089,
+              10.784532
+            ],
+            [
+              106.6953,
+              10.786327
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Octagonal Bát Quái (eight-trigram) star trace with multiple bastions per plan, designed in 1790 directly by French engineers Lebrun and Puymanel in Nguyễn Ánh's service.",
+      "wall_style": "earth"
+    },
+    {
+      "bastions": 24,
+      "built_year": 1805,
+      "caption_now": "The Kinh Thành still stands as the walled heart of Huế city, its brick ramparts and gates intact and inhabited rather than ruined.",
+      "engineer": "Nguyễn court military engineers, applying the Vauban bastion trace already in use at Gia Định/Diên Khánh; French officers in Nguyễn service (e.g. Olivier de Puymanel) had earlier introduced that system to Vietnam and their star-fort layout was reused here",
+      "fate": "intact",
+      "name_en": "Hue Imperial Citadel",
+      "name_vi": "Thành Huế",
+      "now": {
+        "area_m2": 6840300.5,
+        "buildings": {
+          "count": 1317,
+          "footprint_m2": 322841.0
+        },
+        "landuse": {
+          "commercial": 0.0027,
+          "construction": 0.0014,
+          "farmland": 0.0003,
+          "forest": 0.0024,
+          "grass": 0.0314,
+          "military": 0.0011,
+          "plant_nursery": 0.0001,
+          "religious": 0.0033,
+          "residential": 0.6953,
+          "retail": 0.0041
+        },
+        "lives": {
+          "civic": 426,
+          "eat": 861,
+          "other": 169,
+          "serve": 902,
+          "shop": 824
+        },
+        "poi_total": 3182
+      },
+      "perimeter_m": 10000.0,
+      "province": "Thừa Thiên Huế",
+      "ruler": "Gia Long",
+      "slug": "thành-huế",
+      "sources": [
+        {
+          "cite": "UNESCO World Heritage Centre, \"Complex of Hue Monuments\" (inscribed 1993), https://whc.unesco.org/en/list/678/",
+          "claim": "Gia Long began construction of the Huế Kinh Thành (Imperial Citadel) in 1805, laid out as an almost-square bastioned trace roughly 2.5 km per side (~10 km perimeter) with 24 bastions, following the Vauban system already used at earlier Nguyễn strongholds."
+        },
+        {
+          "cite": "Vietnam News, \"Royal documents on Hue Citadel building displayed\", https://vietnamnews.vn/life-style/1639482/royal-documents-on-hue-citadel-building-displayed.html",
+          "claim": "Detailed planning of the citadel was entrusted to Nguyễn Văn Yên, commander of the citadel-construction army unit; original royal documents on the building of the Huế Citadel have been displayed publicly, corroborating the 1805-1832 construction timeline from Gia Long through Minh Mạng."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              107.57134,
+              16.45498
+            ],
+            [
+              107.56144,
+              16.47547
+            ],
+            [
+              107.58266,
+              16.48502
+            ],
+            [
+              107.59256,
+              16.46453
+            ],
+            [
+              107.57134,
+              16.45498
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Square trace with angled bastions at the corners and along each face, a moat, and a glacis — the Vauban-derived layout Gia Long had already used at Gia Định and Diên Khánh, scaled up for the new imperial capital.",
+      "wall_style": "brick"
+    },
+    {
+      "bastions": 4,
+      "built_year": 1805,
+      "caption_now": "The 1805 Vauban outer wall is gone; only the Flag Tower and Bắc Môn gate still stand above the modern Ba Đình district — distinct from the older Thăng Long core preserved as a UNESCO site nearby.",
+      "engineer": "Nguyễn court military engineers; no single named Western engineer confirmed for this specific rebuild",
+      "fate": "fragments",
+      "name_en": "Hanoi Citadel (1805 Vauban rebuild)",
+      "name_vi": "Thành Hà Nội",
+      "now": {
+        "area_m2": 485067.5,
+        "buildings": {
+          "count": 416,
+          "footprint_m2": 93897.3
+        },
+        "landuse": {
+          "commercial": 0.2424,
+          "construction": 0.0099,
+          "flowerbed": 0.0054,
+          "forest": 0.0447,
+          "grass": 0.1562,
+          "military": 0.0812,
+          "recreation_ground": 0.0038,
+          "religious": 0.0004,
+          "residential": 0.0521,
+          "retail": 0.0375
+        },
+        "lives": {
+          "civic": 76,
+          "eat": 41,
+          "other": 18,
+          "serve": 48,
+          "shop": 42
+        },
+        "poi_total": 225
+      },
+      "perimeter_m": 2600.0,
+      "province": "Hà Nội",
+      "ruler": "Gia Long",
+      "slug": "thành-hà-nội",
+      "sources": [
+        {
+          "cite": "Wikipedia, \"Imperial Citadel of Thang Long\", https://en.wikipedia.org/wiki/Imperial_Citadel_of_Th%C4%83ng_Long",
+          "claim": "In 1805 Gia Long demolished the outer walls of the old Thăng Long imperial citadel and rebuilt a smaller, square Vauban-trace citadel with corner bastions; the Flag Tower (Cột Cờ, 1805-1812) and Bắc Môn North Gate (1805) are the only elements to survive the French demolition of 1894-97."
+        },
+        {
+          "cite": "Facts and Details, \"Citadel of Hanoi: Its History, Layout and Building Remnants\", https://factsanddetails.com/southeast-asia/Vietnam/sub5_9j/entry-6601.html",
+          "claim": "The 1805 Nguyễn-era Vauban rebuild of the Hanoi citadel is documented separately from the earlier Lý-Trần-Lê royal citadel core beneath it; only Bắc Môn gate and the Flag Tower remain above ground, and the outer wall footprint is not visible in the modern city today."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              105.841628,
+              21.03792
+            ],
+            [
+              105.841628,
+              21.03208
+            ],
+            [
+              105.835372,
+              21.03208
+            ],
+            [
+              105.835372,
+              21.03792
+            ],
+            [
+              105.841628,
+              21.03792
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Gia Long demolished the old Lê-dynasty walls and rebuilt a smaller, square Vauban-trace citadel with protruding corner bastions on the Thăng Long site in 1805 — distinct from the pre-Nguyễn Lý-Trần-Lê core beneath it.",
+      "wall_style": "brick"
+    },
+    {
+      "bastions": 6,
+      "built_year": 1804,
+      "caption_now": "Little of Hải Dương's ramparts remain standing, but its hexagonal footprint still shows through in the street grid around Ngã tư Kho Đỏ.",
+      "engineer": "Nguyễn court engineers; general Vauban attribution",
+      "fate": "fragments",
+      "name_en": "Hai Duong Citadel (Thanh Dong)",
+      "name_vi": "Thành Hải Dương",
+      "now": {
+        "area_m2": 401953.6,
+        "buildings": {
+          "count": 0,
+          "footprint_m2": 0.0
+        },
+        "landuse": {
+          "commercial": 0.031
+        },
+        "lives": {
+          "civic": 35,
+          "eat": 82,
+          "other": 21,
+          "serve": 106,
+          "shop": 82
+        },
+        "poi_total": 326
+      },
+      "perimeter_m": 2204.0,
+      "province": "Hải Dương",
+      "ruler": "Gia Long",
+      "slug": "thành-hải-dương",
+      "sources": [
+        {
+          "cite": "Wikipedia tiếng Việt, \"Thành Hải Dương\", https://vi.wikipedia.org/wiki/Th%C3%A0nh_H%E1%BA%A3i_D%C6%B0%C6%A1ng",
+          "claim": "Hải Dương Citadel (Thành Đông) was built as an earth fort in 1804, with the inner citadel (thành Nội) laid out as a regular hexagon with a perimeter of 551 trượng (about 2,204 m), wall height 4.48 m, and a moat 44 m wide and 2.4 m deep, with 4 gates."
+        },
+        {
+          "cite": "Saigoneer, \"Vauban Architecture: The Foundation of Central and Northern Vietnam's Citadels\", https://www.saigoneer.com/vietnam-heritage/18626-vauban-architecture-the-foundation-of-central-and-northern-vietnam-s-citadels",
+          "claim": "Hải Dương Citadel was left in ruin through the French colonial period and the Second Indochina War; little physical fabric survives, but the hexagonal outline can still be discerned in the surviving street pattern and on satellite imagery."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              106.3297,
+              20.9443
+            ],
+            [
+              106.33276,
+              20.94265
+            ],
+            [
+              106.33276,
+              20.93935
+            ],
+            [
+              106.3297,
+              20.9377
+            ],
+            [
+              106.32664,
+              20.93935
+            ],
+            [
+              106.32664,
+              20.94265
+            ],
+            [
+              106.3297,
+              20.9443
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Regular hexagon trace for the inner citadel (thành Nội) with 4 gates, an earth rampart later reinforced, grouped with Quảng Ngãi in the 1807 wave of Gia Long-era Vauban-model provincial citadels.",
+      "wall_style": "earth"
+    },
+    {
+      "bastions": 8,
+      "built_year": 1836,
+      "caption_now": "Thành Phụng's site is now fully built over in central District 1; nothing above ground marks where it stood.",
+      "engineer": "Nguyễn court engineers, built in Vauban style similar to its predecessor — no individually named Western engineer",
+      "fate": "erased",
+      "name_en": "Phoenix Citadel (second Saigon citadel)",
+      "name_vi": "Thành Phụng",
+      "now": {
+        "area_m2": 253283.2,
+        "buildings": {
+          "count": 0,
+          "footprint_m2": 0.0
+        },
+        "landuse": {},
+        "lives": {
+          "civic": 153,
+          "eat": 358,
+          "other": 49,
+          "serve": 576,
+          "shop": 218
+        },
+        "poi_total": 1354
+      },
+      "perimeter_m": 3000.0,
+      "province": "Thành phố Hồ Chí Minh",
+      "ruler": "Minh Mạng",
+      "slug": "thành-phụng",
+      "sources": [
+        {
+          "cite": "Wikipedia tiếng Việt, \"Thành Gia Định\", https://vi.wikipedia.org/wiki/Th%C3%A0nh_Gia_%C4%90%E1%BB%8Bnh",
+          "claim": "After the demolition of Thành Gia Định, Minh Mạng ordered a smaller replacement citadel — Thành Phụng — built in 1836 in the area bounded by Nguyễn Đình Chiểu, Nguyễn Du, Mạc Đĩnh Chi and Nguyễn Bỉnh Khiêm streets, destroyed by French forces in 1859."
+        },
+        {
+          "cite": "Saigoneer, \"Unearthed: Tracing the Past Citadels of Southern Vietnam\", https://saigoneer.com/vietnam-heritage/18394-unearth-tracing-the-past-citadels-of-southern-vietnam",
+          "claim": "No surface trace of Thành Phụng survives in the modern District 1 street grid; its footprint is a historical-reconstruction approximation based on the streets that bounded it."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              106.699,
+              10.789141
+            ],
+            [
+              106.700901,
+              10.788367
+            ],
+            [
+              106.701688,
+              10.7865
+            ],
+            [
+              106.700901,
+              10.784633
+            ],
+            [
+              106.699,
+              10.783859
+            ],
+            [
+              106.697099,
+              10.784633
+            ],
+            [
+              106.696312,
+              10.7865
+            ],
+            [
+              106.697099,
+              10.788367
+            ],
+            [
+              106.699,
+              10.789141
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Built in 1836 as the replacement for the demolished Bát Quái citadel, reusing the same Vauban-derived bastion trace tradition on a smaller scale.",
+      "wall_style": "brick"
+    },
+    {
+      "bastions": 5,
+      "built_year": 1813,
+      "caption_now": "Only a reconstructed South Gate and an old banyan tree mark Vĩnh Long's plum-blossom citadel, razed by the French in 1867.",
+      "engineer": "Directed by Lưu Phước Tường (khâm mạng trấn thủ); employed European fortress architecture of the 17th-18th centuries — general Vauban-model attribution, no Western engineer named",
+      "fate": "fragments",
+      "name_en": "Vinh Long Citadel (Thanh Long Ho)",
+      "name_vi": "Thành Vĩnh Long",
+      "now": {
+        "area_m2": 12464.4,
+        "buildings": {
+          "count": 0,
+          "footprint_m2": 0.0
+        },
+        "landuse": {},
+        "lives": {
+          "civic": 0,
+          "eat": 9,
+          "other": 0,
+          "serve": 3,
+          "shop": 1
+        },
+        "poi_total": 13
+      },
+      "perimeter_m": 400.0,
+      "province": "Vĩnh Long",
+      "ruler": "Gia Long",
+      "slug": "thành-vĩnh-long",
+      "sources": [
+        {
+          "cite": "Wikipedia tiếng Việt, \"Thành Vĩnh Long\", https://vi.wikipedia.org/wiki/Th%C3%A0nh_V%C4%A9nh_Long",
+          "claim": "Vĩnh Long Citadel was built on 22 February 1813 (12th year of Gia Long's reign), directed by Lưu Phước Tường, employing 17th-18th century European fortress architecture; it was laid out in a plum-blossom (hoa mai) shape with 5 gates and corner bastions, perimeter about 100 trượng (roughly 400 m), notably smaller than other provincial citadels."
+        },
+        {
+          "cite": "Tatinta, \"Di tích Cửa Hữu Thành Long Hồ\", https://tatinta.com/diem-den/di-tich-cua-huu-thanh-long-ho/7957",
+          "claim": "The French razed the fortifications after capturing Vĩnh Long Citadel in 1867; today only a heritage banyan tree and a reconstructed South Gate (Cửa Hữu), restored in 2008, survive."
+        },
+        {
+          "cite": "Wikipedia tiếng Việt, \"Thành Vĩnh Long\", https://vi.wikipedia.org/wiki/Th%C3%A0nh_V%C4%A9nh_Long",
+          "claim": "This fort's ~400 m perimeter and roughly 1.3-hectare footprint are genuinely small relative to other provincial citadels in this roster (which run 1,600-10,000 m); the polygon here is scaled to the true historical dimension rather than inflated to match a 'typical citadel' size band."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              105.972428,
+              10.251342
+            ],
+            [
+              105.972751,
+              10.251025
+            ],
+            [
+              105.972751,
+              10.250575
+            ],
+            [
+              105.972428,
+              10.250258
+            ],
+            [
+              105.971972,
+              10.250258
+            ],
+            [
+              105.971649,
+              10.250575
+            ],
+            [
+              105.971649,
+              10.251025
+            ],
+            [
+              105.971972,
+              10.251342
+            ],
+            [
+              105.972428,
+              10.251342
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Plum-blossom (hoa mai) shaped trace with 5 gates at cardinal/intercardinal points and corner bastions — smaller than most other provincial citadels at only about 400 m perimeter, approximated here with an octagon.",
+      "wall_style": "earth"
+    },
+    {
+      "bastions": 4,
+      "built_year": 1826,
+      "caption_now": "Định Tường's citadel — designed by the Vietnamese surveyor Trần Văn Học in explicit reference to Vauban's system — has left no surface trace in modern Mỹ Tho.",
+      "engineer": "Designed by Trần Văn Học, a Vietnamese surveyor/engineer trained in Western drafting methods, explicitly referencing Vauban fortress design — a well-documented indigenous-engineer Vauban lineage rather than a French national engineer",
+      "fate": "erased",
+      "name_en": "Dinh Tuong / My Tho Citadel",
+      "name_vi": "Thành Định Tường",
+      "now": {
+        "area_m2": 209275.8,
+        "buildings": {
+          "count": 0,
+          "footprint_m2": 0.0
+        },
+        "landuse": {},
+        "lives": {
+          "civic": 17,
+          "eat": 67,
+          "other": 9,
+          "serve": 51,
+          "shop": 46
+        },
+        "poi_total": 190
+      },
+      "perimeter_m": 1800.0,
+      "province": "Tiền Giang",
+      "ruler": "Gia Long (1792 design origin) to Minh Mạng (1826 construction)",
+      "slug": "thành-định-tường",
+      "sources": [
+        {
+          "cite": "Vietnam.vn, \"Chuyện về người vẽ họa đồ thành Mỹ Tho\", https://www.vietnam.vn/chuyen-ve-nguoi-ve-hoa-do-thanh-my-tho",
+          "claim": "Định Tường Citadel (My Tho) was designed in 1792 by Trần Văn Học, a Vietnamese surveyor trained in Western drafting methods, with explicit reference to French Vauban fortress design; construction was completed in 1826 (Bính Tuất year) on the border of Điều Hòa and Bình Tạo villages, with four corner bastions shaped like plum blossoms."
+        },
+        {
+          "cite": "Tạp chí Kiến Trúc, \"Kiến trúc thành lũy thời nhà Nguyễn\", https://www.tapchikientruc.com.vn/chuyen-muc/kien-truc-thanh-luy-thoi-nha-nguyen.html",
+          "claim": "No surface trace of Định Tường Citadel is identified in sources consulted; the site has been fully absorbed into modern Mỹ Tho, so this record's polygon is an approximate historical footprint rather than a surveyed outline."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              106.362055,
+              10.362021
+            ],
+            [
+              106.362055,
+              10.357979
+            ],
+            [
+              106.357945,
+              10.357979
+            ],
+            [
+              106.357945,
+              10.362021
+            ],
+            [
+              106.362055,
+              10.362021
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Designed in 1792 by Trần Văn Học with explicit reference to French Vauban fortress style; built 1826 with four corner bastions shaped like plum blossoms (hoa mai).",
+      "wall_style": "brick"
+    },
+    {
+      "bastions": 8,
+      "built_year": 1824,
+      "caption_now": "Đồng Hới's citron-shaped walls and moat remain a walkable heritage site at the mouth of the Nhật Lệ river.",
+      "engineer": "Nguyễn court engineers; general Vauban-model attribution — citron-shaped trace with 4 large plus 4 small bastions",
+      "fate": "intact",
+      "name_en": "Dong Hoi Citadel (Quang Binh Citadel)",
+      "name_vi": "Thành Đồng Hới",
+      "now": {
+        "area_m2": 286904.0,
+        "buildings": {
+          "count": 0,
+          "footprint_m2": 0.0
+        },
+        "landuse": {},
+        "lives": {
+          "civic": 14,
+          "eat": 12,
+          "other": 2,
+          "serve": 11,
+          "shop": 5
+        },
+        "poi_total": 44
+      },
+      "perimeter_m": 1860.0,
+      "province": "Quảng Bình",
+      "ruler": "Gia Long (initial Nguyễn-era work) to Minh Mạng (1824 Vauban rebuild) to Thiệu Trị (1842 repairs)",
+      "slug": "thành-đồng-hới",
+      "sources": [
+        {
+          "cite": "sovaba.travel, \"Khám phá Thành Cổ Đồng Hới — biểu tượng văn hóa và lịch sử Quảng Bình\", https://sovaba.travel/blog/bai-viet-kham-pha-thanh-co-dong-hoi-bieu-tuong-van-hoa-va-lich-su-quang-binh",
+          "claim": "Đồng Hới Citadel was rebuilt in brick and stone to a Vauban trace in 1824 under Minh Mạng, repaired again in 1842 under Thiệu Trị, laid out in a citron (quả chanh) shape with 4 large and 4 small bastions; perimeter about 1,860 m, wall height 4 m, base thickness 2 m, moat 28 m wide."
+        },
+        {
+          "cite": "Wikipedia tiếng Việt, \"Thành Đồng Hới\", https://vi.wikipedia.org/wiki/Th%C3%A0nh_%C4%90%E1%BB%93ng_H%E1%BB%9Bi",
+          "claim": "Substantial wall sections, gates, and moat survive at Đồng Hới Citadel, forming a standing, walkable heritage site today; distinct from the older, pre-Vauban Lũy Thầy earthwork nearby."
+        }
+      ],
+      "star_geometry": {
+        "coordinates": [
+          [
+            [
+              106.6167,
+              17.467729
+            ],
+            [
+              106.618723,
+              17.46693
+            ],
+            [
+              106.619561,
+              17.465
+            ],
+            [
+              106.618723,
+              17.46307
+            ],
+            [
+              106.6167,
+              17.462271
+            ],
+            [
+              106.614677,
+              17.46307
+            ],
+            [
+              106.613839,
+              17.465
+            ],
+            [
+              106.614677,
+              17.46693
+            ],
+            [
+              106.6167,
+              17.467729
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "vauban_lineage": true,
+      "vauban_note": "Citron (quả chanh) shaped trace with 4 large and 4 small bastions, rebuilt in brick and stone under Minh Mạng in 1824; distinct from the older, non-bastioned Lũy Thầy (Đào Duy Từ, 1630s) earthwork nearby, which does not qualify under this gate.",
+      "wall_style": "brick"
+    }
+  ],
+  "overture_release": "2026-06-17.0",
+  "schema": "citadels-v1"
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vauban Came East, Then Faded — Nguyễn Citadels</title>
+<meta name="description" content="European star-fort geometry, planted across Nguyễn Vietnam (1802–1945) — and what became of each fort, told in three steps.">
+<link rel="stylesheet" href="lib/maplibre-gl.css">
+<link rel="stylesheet" href="lib/fonts.css?v=20260715">
+<link rel="stylesheet" href="story.css?v=20260715">
+</head>
+<body>
+<nav class="site-nav">
+  <a href="index.html" class="current">Vauban Came East, Then Faded</a>
+  <a href="atlas.html">Atlas of 19 forts &rarr;</a>
+</nav>
+
+<header class="story-hero">
+  <p class="eyebrow">A Nguyễn-dynasty atlas &middot; 1802&ndash;1945</p>
+  <h1>Vauban came East, then faded</h1>
+  <p class="lede">A French military engineer's star-shaped fortress design crossed
+    the world and took root under the Nguyễn court. This is what happened to it.</p>
+</header>
+
+<main class="stepper" id="stepper">
+
+  <section class="step" id="step-what" data-step="what">
+    <div class="step-media">
+      <svg id="star-fort-diagram" viewBox="0 0 400 400" role="img"
+           aria-label="Diagram of a bastioned star fort: an eight-pointed star wall with an angled bastion at each corner, ringed by a moat.">
+        <circle class="moat" cx="200" cy="200" r="180"></circle>
+        <polygon class="star-wall" id="star-wall-poly" points=""></polygon>
+        <circle class="citadel-core" cx="200" cy="200" r="46"></circle>
+      </svg>
+    </div>
+    <div class="step-text">
+      <p class="step-eyebrow">1 &middot; What a star fort is</p>
+      <h2>Angles instead of walls</h2>
+      <p>A bastioned star fort trades tall straight walls for a jagged ring of
+        angled bastions &mdash; every stretch of the perimeter covered by
+        crossfire from its neighbors, and a moat to keep artillery at range.
+        The French engineer Sébastien Le Prestre de Vauban systematized the
+        design in the 1600s to defend France's borders.</p>
+      <p>From 1802, the Nguyễn court adopted this same trace &mdash; via
+        French officers in Nguyễn service and the court's own military
+        engineers &mdash; to build citadels the length of Vietnam.</p>
+    </div>
+  </section>
+
+  <section class="step" id="step-network" data-step="network">
+    <div class="step-media">
+      <div id="network-map" aria-label="Map lighting up each of the 19 citadels in turn, Huế first"></div>
+      <p class="map-caption" id="network-caption">Lighting up the network, one citadel at a time &mdash; Huế first.</p>
+    </div>
+    <div class="step-text">
+      <p class="step-eyebrow">2 &middot; The network</p>
+      <h2>Nineteen citadels, one system</h2>
+      <p>Từ Huế &mdash; the imperial seat, and the brightest point on the
+        map &mdash; the Nguyễn court planted the same bastioned trace at
+        provincial capitals from Sơn Tây in the north to Hà Tiên in the
+        south. Nineteen of these star forts survive in the record well
+        enough to map today.</p>
+    </div>
+  </section>
+
+  <section class="step" id="step-faded" data-step="faded">
+    <div class="step-media">
+      <div id="fate-map" aria-label="The same map recolored by each fort's fate today"></div>
+      <ul class="legend" id="fate-legend"></ul>
+    </div>
+    <div class="step-text">
+      <p class="step-eyebrow">3 &middot; Then faded</p>
+      <h2>Not every wall survived</h2>
+      <p>Two centuries on, the same nineteen points tell a second story.
+        A few citadels still stand whole, inhabited and intact. Most have
+        weathered to fragments, or been quietly built over by the modern
+        city. A handful are erased outright &mdash; only their footprint
+        legible from above.</p>
+      <p>Every fort on this map carries its own record: when it was built,
+        who ordered it, and what fills its walls now.</p>
+      <a class="cta" href="atlas.html">Explore all 19 forts &rarr;</a>
+    </div>
+  </section>
+
+</main>
+
+<nav class="stepper-controls" id="stepper-controls" aria-label="Story navigation">
+  <button type="button" id="step-back" class="step-btn" disabled>&lsaquo; Back</button>
+  <span class="step-counter" id="step-counter">Step 1 of 3</span>
+  <button type="button" id="step-forward" class="step-btn">Next &rsaquo;</button>
+</nav>
+
+<script src="lib/maplibre-gl.js"></script>
+<script type="module" src="story.js?v=20260715"></script>
+</body>
+</html>

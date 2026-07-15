@@ -1,0 +1,241 @@
+/* story.css — nguyen-citadels overview/stepper page ("index.html")
+   Register: LIGHT / warm ground, same paper+ink+type system as atlas.css /
+   fort.css. This page is the front door: a 3-step click-stepper, graceful
+   without JS (all steps are stacked <section>s in the DOM; JS just adds the
+   counter/prev/next affordance and hides steps other than the current one). */
+
+:root {
+  --paper: #f4efe4;
+  --paper-raised: #ede5d3;
+  --ink: #2b2420;
+  --ink-soft: #6b5f52;
+  --rule: #d8cbb3;
+  --accent-gold: #e8c37a;
+  --font-display: "Alegreya", Georgia, serif;
+  --font-body: "Lora", Georgia, serif;
+  --font-ui: "Be Vietnam Pro", "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.55;
+}
+
+a { color: #7a4a1f; }
+a:hover { color: #a5642a; }
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+.site-nav a { text-decoration: none; color: var(--ink-soft); }
+.site-nav a:hover, .site-nav a.current { color: var(--ink); }
+
+/* --- Hero --- */
+.story-hero {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: clamp(2rem, 7vw, 4.5rem) clamp(1rem, 4vw, 3rem) 1rem;
+  text-align: center;
+}
+
+.story-hero .eyebrow {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+  margin: 0 0 0.6rem;
+}
+
+.story-hero h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.2rem, 7vw, 3.6rem);
+  margin: 0 0 0.8rem;
+  line-height: 1.05;
+}
+
+.story-hero .lede {
+  color: var(--ink-soft);
+  font-size: 1.08rem;
+  margin: 0 auto;
+}
+
+/* --- Stepper: stacked steps, JS toggles which is visible --- */
+.stepper {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 1rem clamp(1rem, 4vw, 3rem) 2rem;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: center;
+  padding: clamp(2rem, 5vw, 3.5rem) 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.step:last-child { border-bottom: none; }
+
+/* JS-enhanced mode: only the active step shows. Without JS, all steps stack
+   (graceful degradation) and .stepper-controls is simply absent/inert. */
+.js-stepper .step { display: none; }
+.js-stepper .step.is-active { display: grid; }
+
+.step-media {
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 1rem;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.step-text .step-eyebrow {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+  margin: 0 0 0.4rem;
+}
+
+.step-text h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3.4vw, 2.1rem);
+  margin: 0 0 0.7rem;
+  line-height: 1.15;
+}
+
+.step-text p { margin: 0 0 0.9rem; color: var(--ink); }
+.step-text p:last-of-type { margin-bottom: 0; }
+
+.cta {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #fff;
+  background: #7a4a1f;
+  padding: 0.65rem 1.2rem;
+  border-radius: 999px;
+  transition: background 0.15s ease;
+}
+.cta:hover { background: #a5642a; color: #fff; }
+
+/* --- Star-fort diagram (step 1) --- */
+#star-fort-diagram { width: 100%; max-width: 320px; height: auto; }
+.moat { fill: none; stroke: var(--rule); stroke-width: 3; }
+.star-wall {
+  fill: rgba(232, 195, 122, 0.18);
+  stroke: var(--accent-gold);
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+.citadel-core { fill: var(--paper); stroke: var(--ink-soft); stroke-width: 1.5; }
+
+/* --- Network / fate maps (steps 2 & 3) --- */
+#network-map, #fate-map {
+  width: 100%;
+  height: min(50vh, 360px);
+  min-height: 260px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--rule);
+  background: #e9e0cc;
+}
+
+.map-caption {
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  margin: 0;
+  text-align: center;
+}
+
+.legend {
+  list-style: none;
+  margin: 0.2rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 1.1rem;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+.legend li { display: flex; align-items: center; gap: 0.4rem; }
+.legend .swatch {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid rgba(43, 36, 32, 0.3);
+}
+
+/* --- Stepper controls --- */
+.stepper-controls {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 0.8rem clamp(1rem, 4vw, 3rem);
+  background: var(--paper);
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-ui);
+}
+
+.step-btn {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid var(--rule);
+  background: var(--paper-raised);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+
+.step-btn:hover:not(:disabled) { background: #e2d6ba; }
+.step-btn:disabled { opacity: 0.4; cursor: default; }
+
+.step-counter {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  min-width: 7rem;
+  text-align: center;
+}
+
+@media (max-width: 780px) {
+  .step { grid-template-columns: 1fr; }
+  .stepper-controls { gap: 0.8rem; }
+}

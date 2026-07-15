@@ -1,0 +1,13 @@
+/* nguyen-citadels — vendored, re-spliced faces (full Latin + VN stacked marks
+   confirmed in the woff2 cmap; NOT shards). Copied from map-poster's Track B/C
+   vendor set. Real weights only — no faux-bold. font-display: swap. */
+@font-face { font-family:"Alegreya"; font-weight:400; font-display:swap;
+  src:url("fonts/alegreya-400.woff2") format("woff2"); }
+@font-face { font-family:"Alegreya"; font-weight:700; font-display:swap;
+  src:url("fonts/alegreya-700.woff2") format("woff2"); }
+@font-face { font-family:"Lora"; font-weight:400; font-display:swap;
+  src:url("fonts/lora-400.woff2") format("woff2"); }
+@font-face { font-family:"Be Vietnam Pro"; font-weight:400; font-display:swap;
+  src:url("fonts/bvp-400.woff2") format("woff2"); }
+@font-face { font-family:"Be Vietnam Pro"; font-weight:600; font-display:swap;
+  src:url("fonts/bvp-600.woff2") format("woff2"); }
