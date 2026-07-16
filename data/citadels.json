@@ -11,10 +11,12 @@
       "now": {
         "area_m2": 317810.1,
         "buildings": {
-          "count": 0,
-          "footprint_m2": 0.0
+          "count": 481,
+          "footprint_m2": 80575.7
         },
-        "landuse": {},
+        "landuse": {
+          "commercial": 0.0819
+        },
         "lives": {
           "civic": 37,
           "eat": 16,
@@ -100,8 +102,8 @@
       "now": {
         "area_m2": 175400.3,
         "buildings": {
-          "count": 32,
-          "footprint_m2": 17074.5
+          "count": 370,
+          "footprint_m2": 55312.8
         },
         "landuse": {
           "commercial": 0.1945,
@@ -174,8 +176,8 @@
       "now": {
         "area_m2": 382052.6,
         "buildings": {
-          "count": 0,
-          "footprint_m2": 0.0
+          "count": 462,
+          "footprint_m2": 37541.5
         },
         "landuse": {
           "residential": 0.4489
@@ -245,8 +247,8 @@
       "now": {
         "area_m2": 253145.0,
         "buildings": {
-          "count": 0,
-          "footprint_m2": 0.0
+          "count": 305,
+          "footprint_m2": 34284.0
         },
         "landuse": {},
         "lives": {
@@ -330,8 +332,8 @@
       "now": {
         "area_m2": 375877.9,
         "buildings": {
-          "count": 214,
-          "footprint_m2": 49880.3
+          "count": 237,
+          "footprint_m2": 82493.7
         },
         "landuse": {
           "commercial": 0.3322,
@@ -409,24 +411,20 @@
       "name_en": "Dien Khanh Citadel",
       "name_vi": "Thành cổ Diên Khánh",
       "now": {
-        "area_m2": 548554.0,
+        "area_m2": 397436.6,
         "buildings": {
-          "count": 49,
-          "footprint_m2": 11570.1
+          "count": 611,
+          "footprint_m2": 89628.4
         },
-        "landuse": {
-          "grass": 0.001,
-          "military": 0.0009,
-          "residential": 0.4199
-        },
+        "landuse": {},
         "lives": {
-          "civic": 14,
-          "eat": 25,
-          "other": 6,
-          "serve": 42,
-          "shop": 54
+          "civic": 18,
+          "eat": 8,
+          "other": 2,
+          "serve": 14,
+          "shop": 17
         },
-        "poi_total": 141
+        "poi_total": 59
       },
       "perimeter_m": 2694.0,
       "province": "Khánh Hòa",
@@ -446,32 +444,32 @@
         "coordinates": [
           [
             [
-              109.0983,
-              12.261833
+              109.091859,
+              12.252224
             ],
             [
-              109.101875,
-              12.259817
+              109.089597,
+              12.254282
             ],
             [
-              109.101875,
-              12.255783
+              109.09112,
+              12.256993
             ],
             [
-              109.0983,
-              12.253767
+              109.097407,
+              12.257605
             ],
             [
-              109.094725,
-              12.255783
+              109.097579,
+              12.254402
             ],
             [
-              109.094725,
-              12.259817
+              109.094932,
+              12.252645
             ],
             [
-              109.0983,
-              12.261833
+              109.091859,
+              12.252224
             ]
           ]
         ],
@@ -492,8 +490,8 @@
       "now": {
         "area_m2": 786251.8,
         "buildings": {
-          "count": 26,
-          "footprint_m2": 19029.4
+          "count": 2768,
+          "footprint_m2": 255708.5
         },
         "landuse": {
           "commercial": 0.0146
@@ -561,22 +559,20 @@
       "name_en": "Nghe An / Vinh Citadel",
       "name_vi": "Thành cổ Nghệ An",
       "now": {
-        "area_m2": 467819.2,
+        "area_m2": 476164.9,
         "buildings": {
-          "count": 11,
-          "footprint_m2": 5048.7
+          "count": 1052,
+          "footprint_m2": 133133.6
         },
-        "landuse": {
-          "residential": 0.0139
-        },
+        "landuse": {},
         "lives": {
-          "civic": 38,
-          "eat": 69,
-          "other": 32,
-          "serve": 123,
-          "shop": 135
+          "civic": 13,
+          "eat": 25,
+          "other": 2,
+          "serve": 11,
+          "shop": 13
         },
-        "poi_total": 397
+        "poi_total": 64
       },
       "perimeter_m": 2412.0,
       "province": "Nghệ An",
@@ -596,32 +592,92 @@
         "coordinates": [
           [
             [
-              105.6813,
-              18.683211
+              105.671213,
+              18.667181
             ],
             [
-              105.684601,
-              18.681406
+              105.667449,
+              18.667234
             ],
             [
-              105.684601,
-              18.677794
+              105.667389,
+              18.667248
             ],
             [
-              105.6813,
-              18.675989
+              105.667347,
+              18.667273
             ],
             [
-              105.677999,
-              18.677794
+              105.665537,
+              18.67033
             ],
             [
-              105.677999,
-              18.681406
+              105.66551,
+              18.670378
             ],
             [
-              105.6813,
-              18.683211
+              105.665506,
+              18.670433
+            ],
+            [
+              105.665523,
+              18.670486
+            ],
+            [
+              105.667433,
+              18.673451
+            ],
+            [
+              105.667475,
+              18.673502
+            ],
+            [
+              105.667524,
+              18.67352
+            ],
+            [
+              105.671316,
+              18.673445
+            ],
+            [
+              105.671362,
+              18.673435
+            ],
+            [
+              105.671397,
+              18.673399
+            ],
+            [
+              105.673134,
+              18.670329
+            ],
+            [
+              105.673154,
+              18.670278
+            ],
+            [
+              105.673155,
+              18.670224
+            ],
+            [
+              105.673135,
+              18.670158
+            ],
+            [
+              105.671311,
+              18.667244
+            ],
+            [
+              105.671286,
+              18.667208
+            ],
+            [
+              105.671254,
+              18.667186
+            ],
+            [
+              105.671213,
+              18.667181
             ]
           ]
         ],
@@ -642,8 +698,8 @@
       "now": {
         "area_m2": 266584.0,
         "buildings": {
-          "count": 689,
-          "footprint_m2": 81457.9
+          "count": 849,
+          "footprint_m2": 91295.7
         },
         "landuse": {},
         "lives": {
@@ -713,20 +769,20 @@
       "name_en": "Quang Tri Citadel",
       "name_vi": "Thành cổ Quảng Trị",
       "now": {
-        "area_m2": 300629.7,
+        "area_m2": 287473.5,
         "buildings": {
-          "count": 0,
-          "footprint_m2": 0.0
+          "count": 20,
+          "footprint_m2": 2636.0
         },
         "landuse": {},
         "lives": {
-          "civic": 9,
-          "eat": 23,
-          "other": 3,
-          "serve": 26,
-          "shop": 30
+          "civic": 2,
+          "eat": 6,
+          "other": 0,
+          "serve": 5,
+          "shop": 7
         },
-        "poi_total": 91
+        "poi_total": 20
       },
       "perimeter_m": 2100.0,
       "province": "Quảng Trị",
@@ -746,24 +802,24 @@
         "coordinates": [
           [
             [
-              107.189963,
-              16.749058
+              107.191168,
+              16.751042
             ],
             [
-              107.189963,
-              16.744342
+              107.18662,
+              16.752341
             ],
             [
-              107.185037,
-              16.744342
+              107.187952,
+              16.756843
             ],
             [
-              107.185037,
-              16.749058
+              107.19252,
+              16.755513
             ],
             [
-              107.189963,
-              16.749058
+              107.191168,
+              16.751042
             ]
           ]
         ],
@@ -784,8 +840,8 @@
       "now": {
         "area_m2": 183930.4,
         "buildings": {
-          "count": 439,
-          "footprint_m2": 39156.5
+          "count": 613,
+          "footprint_m2": 53473.5
         },
         "landuse": {
           "forest": 0.0234,
@@ -856,8 +912,8 @@
       "now": {
         "area_m2": 1363360.3,
         "buildings": {
-          "count": 734,
-          "footprint_m2": 307738.6
+          "count": 1738,
+          "footprint_m2": 415652.5
         },
         "landuse": {
           "commercial": 0.043,
@@ -950,8 +1006,8 @@
       "now": {
         "area_m2": 6840300.5,
         "buildings": {
-          "count": 1317,
-          "footprint_m2": 322841.0
+          "count": 14582,
+          "footprint_m2": 1349765.1
         },
         "landuse": {
           "commercial": 0.0027,
@@ -1030,8 +1086,8 @@
       "now": {
         "area_m2": 485067.5,
         "buildings": {
-          "count": 416,
-          "footprint_m2": 93897.3
+          "count": 455,
+          "footprint_m2": 106927.8
         },
         "landuse": {
           "commercial": 0.2424,
@@ -1110,8 +1166,8 @@
       "now": {
         "area_m2": 401953.6,
         "buildings": {
-          "count": 0,
-          "footprint_m2": 0.0
+          "count": 862,
+          "footprint_m2": 125261.3
         },
         "landuse": {
           "commercial": 0.031
@@ -1189,10 +1245,13 @@
       "now": {
         "area_m2": 253283.2,
         "buildings": {
-          "count": 0,
-          "footprint_m2": 0.0
+          "count": 473,
+          "footprint_m2": 73929.2
         },
-        "landuse": {},
+        "landuse": {
+          "commercial": 0.0238,
+          "residential": 0.0227
+        },
         "lives": {
           "civic": 153,
           "eat": 358,
@@ -1274,8 +1333,8 @@
       "now": {
         "area_m2": 12464.4,
         "buildings": {
-          "count": 0,
-          "footprint_m2": 0.0
+          "count": 28,
+          "footprint_m2": 5404.8
         },
         "landuse": {},
         "lives": {
@@ -1363,10 +1422,14 @@
       "now": {
         "area_m2": 209275.8,
         "buildings": {
-          "count": 0,
-          "footprint_m2": 0.0
+          "count": 641,
+          "footprint_m2": 64616.1
         },
-        "landuse": {},
+        "landuse": {
+          "grass": 0.0282,
+          "reservoir": 0.0,
+          "retail": 0.0008
+        },
         "lives": {
           "civic": 17,
           "eat": 67,
@@ -1432,10 +1495,12 @@
       "now": {
         "area_m2": 286904.0,
         "buildings": {
-          "count": 0,
-          "footprint_m2": 0.0
+          "count": 172,
+          "footprint_m2": 44183.4
         },
-        "landuse": {},
+        "landuse": {
+          "brownfield": 0.0309
+        },
         "lives": {
           "civic": 14,
           "eat": 12,
