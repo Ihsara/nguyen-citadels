@@ -1152,20 +1152,24 @@
       "name_en": "Quang Ngai Citadel (Cam Thanh)",
       "name_vi": "Thành cổ Quảng Ngãi",
       "now": {
-        "area_m2": 266584.0,
+        "area_m2": 239726.8,
         "buildings": {
-          "count": 849,
-          "footprint_m2": 91295.7
+          "count": 1155,
+          "footprint_m2": 76601.6
         },
-        "landuse": {},
+        "landuse": {
+          "military": 0.0813,
+          "recreation_ground": 0.0978,
+          "residential": 0.0269
+        },
         "lives": {
-          "civic": 35,
-          "eat": 62,
-          "other": 15,
-          "serve": 58,
-          "shop": 59
+          "civic": 9,
+          "eat": 15,
+          "other": 1,
+          "serve": 36,
+          "shop": 21
         },
-        "poi_total": 229
+        "poi_total": 82
       },
       "perimeter_m": 1900.0,
       "province": "Quảng Ngãi",
@@ -1179,34 +1183,34 @@
         {
           "cite": "Thanh Niên, \"Tìm lại dấu xưa: Thành cổ Quảng Ngãi\", https://thanhnien.vn/tim-lai-dau-xua-thanh-co-quang-ngai-185240311224507781.htm",
           "claim": "The citadel was completely destroyed in 1947 during the Việt Minh scorched-earth resistance campaign; only faint traces of the east and south rampart lines remain, and the overall footprint can still be read from the surviving east-west road axis in front of the Ninh Thọ Hotel / provincial square."
+        },
+        {
+          "cite": "OpenStreetMap, ODbL — user field report 2026-07-17",
+          "claim": "Placement re-anchored 2026-07-17 onto the street block traced by the three OSM ways named Đường Cẩm Thành (423946223, 423946222, 423946175 — the citadel's own historical name surviving as the wall-line streets), enclosing Bảo tàng tỉnh Quảng Ngãi (way 845629735). Block ≈ 465×480 m, perimeter ≈ 1,890 m vs the recorded 1,900 m. The previous pentagon sat one citadel-height (~470 m) south."
         }
       ],
       "star_geometry": {
         "coordinates": [
           [
             [
-              108.8079,
-              15.123404
+              108.806,
+              15.1282
             ],
             [
-              108.810761,
-              15.121397
+              108.8105,
+              15.1282
             ],
             [
-              108.809668,
-              15.118151
+              108.8105,
+              15.12405
             ],
             [
-              108.806132,
-              15.118151
+              108.806,
+              15.12405
             ],
             [
-              108.805039,
-              15.121397
-            ],
-            [
-              108.8079,
-              15.123404
+              108.806,
+              15.1282
             ]
           ]
         ],
