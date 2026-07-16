@@ -100,25 +100,25 @@
       "name_en": "Bien Hoa Citadel",
       "name_vi": "Thành Biên Hòa",
       "now": {
-        "area_m2": 175400.3,
+        "area_m2": 175403.9,
         "buildings": {
-          "count": 370,
-          "footprint_m2": 55312.8
+          "count": 391,
+          "footprint_m2": 55523.8
         },
         "landuse": {
-          "commercial": 0.1945,
-          "construction": 0.007,
-          "grass": 0.0051,
-          "retail": 0.0015
+          "commercial": 0.0259,
+          "grass": 0.0572,
+          "military": 0.0006,
+          "retail": 0.0001
         },
         "lives": {
-          "civic": 14,
-          "eat": 40,
-          "other": 7,
-          "serve": 55,
-          "shop": 26
+          "civic": 30,
+          "eat": 53,
+          "other": 3,
+          "serve": 58,
+          "shop": 47
         },
-        "poi_total": 142
+        "poi_total": 191
       },
       "perimeter_m": 1645.0,
       "province": "Đồng Nai",
@@ -132,30 +132,38 @@
         {
           "cite": "Báo Đồng Nai, \"Awakening the potential of Bien Hoa citadel\", https://baodongnai.com.vn/english/202508/awakening-the-potential-of-bien-hoa-citadel-4060180/",
           "claim": "The French reduced the citadel to one-eighth of its original area after capturing it in 1861; partial laterite walls and colonial-era buildings survive, and the site was renovated in 2014."
+        },
+        {
+          "cite": "OpenStreetMap way 972604572 (retrieved 2026-07-16); placement audit docs/placement-audit-2026-07-16.json",
+          "claim": "The surviving citadel remnant (Thành Kèn) is the laterite square in Quang Vinh ward mapped in OpenStreetMap as way 972604572 'Di tích Thành cổ Biên Hòa' (10,816.5 m2); the full 1837 trace is anchored so this relic falls inside it. Exact 1837 orientation pending a georeferenced colonial plan."
+        },
+        {
+          "cite": "BnF Gallica, 'Cochinchine française. Plan topographique de l'arrondissement de Bien-Hoa' (1881), ark:/12148/btv1b53167070n f2 (retrieved 2026-07-17 via IIIF); crops in docs/bienhoa-1881-boilloux-*.jpg; analysis in docs/old-maps-provenance.md",
+          "claim": "The 1881 Boilloux cadastral plan of the Biên Hòa arrondissement (1:100,000) marks the 'Citadelle' with a star-fort symbol on the north bank of the Đồng Nai, about 0.8-1.0 km NW/upstream of the Rạch Cát fork at the head of Cù Lao Phố — matching the relic-anchored trace within the plan's reading error and refuting the pre-2026-07-16 site, which sat at the fork itself."
         }
       ],
       "star_geometry": {
         "coordinates": [
           [
             [
-              106.825581,
-              10.946547
+              106.81894,
+              10.952644
             ],
             [
-              106.825581,
-              10.942853
+              106.81894,
+              10.94895
             ],
             [
-              106.821819,
-              10.942853
+              106.815178,
+              10.94895
             ],
             [
-              106.821819,
-              10.946547
+              106.815178,
+              10.952644
             ],
             [
-              106.825581,
-              10.946547
+              106.81894,
+              10.952644
             ]
           ]
         ],
@@ -1493,22 +1501,23 @@
       "name_en": "Dong Hoi Citadel (Quang Binh Citadel)",
       "name_vi": "Thành Đồng Hới",
       "now": {
-        "area_m2": 286904.0,
+        "area_m2": 219840.7,
         "buildings": {
-          "count": 172,
-          "footprint_m2": 44183.4
+          "count": 130,
+          "footprint_m2": 34140.0
         },
         "landuse": {
-          "brownfield": 0.0309
+          "grass": 0.2417,
+          "recreation_ground": 0.0141
         },
         "lives": {
-          "civic": 14,
-          "eat": 12,
-          "other": 2,
-          "serve": 11,
-          "shop": 5
+          "civic": 15,
+          "eat": 1,
+          "other": 1,
+          "serve": 3,
+          "shop": 3
         },
-        "poi_total": 44
+        "poi_total": 23
       },
       "perimeter_m": 1860.0,
       "province": "Quảng Bình",
@@ -1522,46 +1531,206 @@
         {
           "cite": "Wikipedia tiếng Việt, \"Thành Đồng Hới\", https://vi.wikipedia.org/wiki/Th%C3%A0nh_%C4%90%E1%BB%93ng_H%E1%BB%9Bi",
           "claim": "Substantial wall sections, gates, and moat survive at Đồng Hới Citadel, forming a standing, walkable heritage site today; distinct from the older, pre-Vauban Lũy Thầy earthwork nearby."
+        },
+        {
+          "cite": "OpenStreetMap (retrieved 2026-07-16); docs/dong-hoi-walls-osm-2026-07-16.json",
+          "claim": "The trace follows the surviving wall ring mapped in OpenStreetMap as three barrier=city_wall ways named 'Thành cổ Đồng Hới' (334166181, 940795266, 940795265); gaps between ways are the gates."
         }
       ],
       "star_geometry": {
         "coordinates": [
           [
             [
-              106.6167,
-              17.467729
+              106.622608,
+              17.470133
             ],
             [
-              106.618723,
-              17.46693
+              106.622578,
+              17.470212
             ],
             [
-              106.619561,
-              17.465
+              106.622542,
+              17.470213
             ],
             [
-              106.618723,
-              17.46307
+              106.62181,
+              17.470241
             ],
             [
-              106.6167,
-              17.462271
+              106.62138,
+              17.470007
             ],
             [
-              106.614677,
-              17.46307
+              106.621382,
+              17.469845
             ],
             [
-              106.613839,
-              17.465
+              106.619727,
+              17.469762
             ],
             [
-              106.614677,
-              17.46693
+              106.619698,
+              17.469758
             ],
             [
-              106.6167,
-              17.467729
+              106.619674,
+              17.469739
+            ],
+            [
+              106.619661,
+              17.469712
+            ],
+            [
+              106.619664,
+              17.469677
+            ],
+            [
+              106.620341,
+              17.468216
+            ],
+            [
+              106.620184,
+              17.468143
+            ],
+            [
+              106.620167,
+              17.467651
+            ],
+            [
+              106.620422,
+              17.467229
+            ],
+            [
+              106.620596,
+              17.467226
+            ],
+            [
+              106.620688,
+              17.465628
+            ],
+            [
+              106.620697,
+              17.465604
+            ],
+            [
+              106.62072,
+              17.465583
+            ],
+            [
+              106.620749,
+              17.465574
+            ],
+            [
+              106.620781,
+              17.465579
+            ],
+            [
+              106.622297,
+              17.466221
+            ],
+            [
+              106.622367,
+              17.466072
+            ],
+            [
+              106.62289,
+              17.466058
+            ],
+            [
+              106.623407,
+              17.466346
+            ],
+            [
+              106.623405,
+              17.466388
+            ],
+            [
+              106.62365,
+              17.466393
+            ],
+            [
+              106.623699,
+              17.466395
+            ],
+            [
+              106.624928,
+              17.466456
+            ],
+            [
+              106.624964,
+              17.466461
+            ],
+            [
+              106.624995,
+              17.466483
+            ],
+            [
+              106.625014,
+              17.466519
+            ],
+            [
+              106.625008,
+              17.466554
+            ],
+            [
+              106.624499,
+              17.467649
+            ],
+            [
+              106.624413,
+              17.467836
+            ],
+            [
+              106.624337,
+              17.468003
+            ],
+            [
+              106.624474,
+              17.468084
+            ],
+            [
+              106.624491,
+              17.468569
+            ],
+            [
+              106.624256,
+              17.468992
+            ],
+            [
+              106.624068,
+              17.468993
+            ],
+            [
+              106.62399,
+              17.470594
+            ],
+            [
+              106.623979,
+              17.470625
+            ],
+            [
+              106.62396,
+              17.470646
+            ],
+            [
+              106.623923,
+              17.470658
+            ],
+            [
+              106.62389,
+              17.470651
+            ],
+            [
+              106.622978,
+              17.470261
+            ],
+            [
+              106.622852,
+              17.470208
+            ],
+            [
+              106.622608,
+              17.470133
             ]
           ]
         ],
