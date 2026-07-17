@@ -944,22 +944,23 @@
       "name_en": "Nam Dinh Citadel",
       "name_vi": "Thành cổ Nam Định",
       "now": {
-        "area_m2": 786251.8,
+        "area_m2": 784416.6,
         "buildings": {
-          "count": 2768,
-          "footprint_m2": 255708.5
+          "count": 2054,
+          "footprint_m2": 238853.8
         },
         "landuse": {
-          "commercial": 0.0146
+          "commercial": 0.0335,
+          "construction": 0.0294
         },
         "lives": {
-          "civic": 41,
-          "eat": 50,
-          "other": 23,
-          "serve": 136,
-          "shop": 147
+          "civic": 67,
+          "eat": 109,
+          "other": 135,
+          "serve": 173,
+          "shop": 283
         },
-        "poi_total": 397
+        "poi_total": 767
       },
       "perimeter_m": 3324.0,
       "province": "Nam Định",
@@ -973,30 +974,34 @@
         {
           "cite": "Dân trí, \"Thành cổ Nam Định hơn 200 năm tuổi đứng trước nguy cơ trở thành phế tích\", https://dantri.com.vn/van-hoa/thanh-co-nam-dinh-hon-200-nam-tuoi-dung-truoc-nguy-co-tro-thanh-phe-tich-20171217081323365.htm",
           "claim": "Only about 220 m of the North Gate wall section survives today, in phường Cửa Bắc, under severe encroachment pressure as of 2017 reporting; the full historic outline is reconstructable from old maps but is otherwise built over by the modern city."
+        },
+        {
+          "cite": "OpenStreetMap ODbL; Wikimedia Commons Category:Citadel_of_Nam_Dinh (1834/1888/1912 plans)",
+          "claim": "Placement re-anchored 2026-07-17 (sweep R4): the surviving Cột cờ Nam Định (1843 flag tower, OSM node 8515730320, 20.42274 N 106.17326 E) stands at the citadel's south-wall midpoint — the 1834 French-drafted plan (docs/namdinh-1834-citadelle-plan.jpg) draws the mirador inside the south-wall center salient, the Huế/Hà Nội pattern. Solving the 830 m square from Cột cờ = S-wall midpoint plus the angular moat-remnant lake at the NW corner (OSM way 677230473) gives center 20.42646 N 106.17304 E, rotated ~3° — consistent with Chùa Vọng Cung (the Hành cung site, way 916865965) inside on-axis and the name-fossil street Thành Chung in the NW quadrant. The previously committed square sat ~467 m WNW with the flag tower outside its SE corner. Anchors fixture: docs/r4-retrace-anchors-2026-07-17.json."
         }
       ],
       "star_geometry": {
         "coordinates": [
           [
             [
-              106.172683,
-              20.431232
+              106.168846,
+              20.429974
             ],
             [
-              106.172683,
-              20.423768
+              106.17679,
+              20.43039
             ],
             [
-              106.164717,
-              20.423768
+              106.177234,
+              20.422946
             ],
             [
-              106.164717,
-              20.431232
+              106.16929,
+              20.42253
             ],
             [
-              106.172683,
-              20.431232
+              106.168846,
+              20.429974
             ]
           ]
         ],
@@ -1624,22 +1629,22 @@
       "name_en": "Hai Duong Citadel (Thanh Dong)",
       "name_vi": "Thành Hải Dương",
       "now": {
-        "area_m2": 401953.6,
+        "area_m2": 306264.5,
         "buildings": {
-          "count": 862,
-          "footprint_m2": 125261.3
+          "count": 636,
+          "footprint_m2": 99996.8
         },
         "landuse": {
-          "commercial": 0.031
+          "commercial": 0.0407
         },
         "lives": {
-          "civic": 35,
-          "eat": 82,
-          "other": 21,
-          "serve": 106,
-          "shop": 82
+          "civic": 27,
+          "eat": 39,
+          "other": 36,
+          "serve": 87,
+          "shop": 64
         },
-        "poi_total": 326
+        "poi_total": 253
       },
       "perimeter_m": 2204.0,
       "province": "Hải Dương",
@@ -1653,38 +1658,54 @@
         {
           "cite": "Saigoneer, \"Vauban Architecture: The Foundation of Central and Northern Vietnam's Citadels\", https://www.saigoneer.com/vietnam-heritage/18626-vauban-architecture-the-foundation-of-central-and-northern-vietnam-s-citadels",
           "claim": "Hải Dương Citadel was left in ruin through the French colonial period and the Second Indochina War; little physical fabric survives, but the hexagonal outline can still be discerned in the surviving street pattern and on satellite imagery."
+        },
+        {
+          "cite": "BnF/Gallica ark:/12148/btv1b53065025v (crop docs/haiduong-1925-citadel-crop.jpg); OpenStreetMap ODbL",
+          "claim": "Placement re-anchored 2026-07-17 (sweep R4): the 1925 1:5,000 'Plan de Haiduong' (Service Géographique de l'Indochine, Gallica ark:/12148/btv1b53065025v) draws the citadel moat ring explicitly; georeferenced against Ga Hải Dương and the surviving OSM moat streams (ways 1105118406-415, 284962998; 17 m mean residual), the ring centers at 20.9426 N 106.3281 E. Corroborated by name-fossil streets Phố Hào Thành + Phố Cựu Thành and Bệnh viện Quân y 7 inside the west half. Trace = the moat-band centerline read from the plan (~1,950 m — the 1925 degraded ring reads under the 2,204 m record). Anchors fixture: docs/r4-retrace-anchors-2026-07-17.json."
         }
       ],
       "star_geometry": {
         "coordinates": [
           [
             [
-              106.3297,
-              20.9443
+              106.32619,
+              20.94498
             ],
             [
-              106.33276,
-              20.94265
+              106.33001,
+              20.945
             ],
             [
-              106.33276,
-              20.93935
+              106.33063,
+              20.94403
             ],
             [
-              106.3297,
-              20.9377
+              106.33116,
+              20.94189
             ],
             [
-              106.32664,
-              20.93935
+              106.33019,
+              20.94067
             ],
             [
-              106.32664,
-              20.94265
+              106.32788,
+              20.94045
             ],
             [
-              106.3297,
-              20.9443
+              106.3255,
+              20.94043
+            ],
+            [
+              106.32519,
+              20.94172
+            ],
+            [
+              106.3259,
+              20.94447
+            ],
+            [
+              106.32619,
+              20.94498
             ]
           ]
         ],
@@ -1880,24 +1901,25 @@
       "name_en": "Dinh Tuong / My Tho Citadel",
       "name_vi": "Thành Định Tường",
       "now": {
-        "area_m2": 209275.8,
+        "area_m2": 324506.2,
         "buildings": {
-          "count": 641,
-          "footprint_m2": 64616.1
+          "count": 483,
+          "footprint_m2": 125960.6
         },
         "landuse": {
-          "grass": 0.0282,
-          "reservoir": 0.0,
-          "retail": 0.0008
+          "commercial": 0.1064,
+          "grass": 0.0073,
+          "military": 0.0731,
+          "retail": 0.0067
         },
         "lives": {
-          "civic": 17,
-          "eat": 67,
-          "other": 9,
-          "serve": 51,
-          "shop": 46
+          "civic": 26,
+          "eat": 105,
+          "other": 16,
+          "serve": 107,
+          "shop": 119
         },
-        "poi_total": 190
+        "poi_total": 373
       },
       "perimeter_m": 1800.0,
       "province": "Tiền Giang",
@@ -1911,30 +1933,34 @@
         {
           "cite": "Tạp chí Kiến Trúc, \"Kiến trúc thành lũy thời nhà Nguyễn\", https://www.tapchikientruc.com.vn/chuyen-muc/kien-truc-thanh-luy-thoi-nha-nguyen.html",
           "claim": "No surface trace of Định Tường Citadel is identified in sources consulted; the site has been fully absorbed into modern Mỹ Tho, so this record's polygon is an approximate historical footprint rather than a surveyed outline."
+        },
+        {
+          "cite": "Cổng TTĐT TP Mỹ Tho, 'Lịch sử hình thành'; Thanh Niên, 'Thành cổ Nam bộ: Thành Mỹ Tho — chốn đại đô hội'; Báo Ấp Bắc, 'Giếng nước Mỹ Tho — dấu tích xưa giữa lòng thành phố'; OpenStreetMap ODbL",
+          "claim": "Placement re-anchored 2026-07-17 (sweep R4): the 1826 citadel stood WEST of the Bảo Định canal on Điều Hòa/Bình Tạo ground (today's Phường 1) — the modern block bounded by Rạch Gầm (S, main gate facing the UBND Tiền Giang), Trưng Trắc along the Bảo Định (E), Nam Kỳ Khởi Nghĩa (W) and Ngô Quyền (N). The giếng nước Mỹ Tho basins (Giếng Nước Lớn/Nhỏ, OSM ways 111316818/111316816) are the citadel's converted WEST moat, and the Bộ Chỉ huy quân sự compound (way 265244996) sits inside the SW quadrant (military continuity). This settles the R3 canal-side question: the 'Fort' drawn east of the canal mouth on the 1885 Camouilly plan (ark:/12148/btv1b532133348) is the post-conquest French fort, not the citadel. Trace = the street block inset ~40 m to the wall line; recorded perimeters diverge (ĐNNTC 320 trượng ≈ 1,400–1,500 m vs roster 1,800 m vs block ~2,250 m) — flagged reconstruction. The previously committed square sat ~630 m NW, treating the moat wells as its EAST edge. Anchors fixture: docs/r4-retrace-anchors-2026-07-17.json."
         }
       ],
       "star_geometry": {
         "coordinates": [
           [
             [
-              106.362055,
-              10.362021
+              106.3622,
+              10.3595
             ],
             [
-              106.362055,
-              10.357979
+              106.3678,
+              10.3595
             ],
             [
-              106.357945,
-              10.357979
+              106.3678,
+              10.3549
             ],
             [
-              106.357945,
-              10.362021
+              106.3622,
+              10.3549
             ],
             [
-              106.362055,
-              10.362021
+              106.3622,
+              10.3595
             ]
           ]
         ],
